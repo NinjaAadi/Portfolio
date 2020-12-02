@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0%;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Questrial", sans-serif !important;
+  background-color: #222831;
+  transition: all 300ms linear;
+
+  z-index: 20;
+}
+.name {
+  position: absolute;
+  left: 20px;
+  color: gold;
+  top: 10px;
+}
+.btns {
+  position: absolute;
+  width: 700px;
+  right: 5%;
+  height: 100%;
+}
+
+.anc {
+  margin-right: 50px;
+  display: inline-block;
+  margin-top: 35px;
+  cursor: pointer;
+  color: #a3f7bf;
+  border: none;
+  text-decoration: none;
+  transition: all 500ms ease-in;
+}
+
+.anc:hover {
+  color: gold;
+  border-bottom: 1px solid gold;
+}
+.button {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  background: none;
+  border: none;
+  outline: none;
+  display: none;
+}
+.l1 {
+  margin-top: 10px;
+  width: 80%;
+  height: 3px;
+  background-color: white;
+}
+.l2 {
+  width: 80%;
+  height: 3px;
+  background-color: white;
+  margin-top: 7px;
+}
+.l3 {
+  width: 80%;
+  height: 3px;
+  background-color: white;
+  margin-top: 7px;
+}
+.l4 {
+  width: 80%;
+  height: 3px;
+  background-color: white;
+  margin-top: 6px;
+  position: absolute;
+  transform: rotate(45deg);
+}
+.l5 {
+  width: 80%;
+  height: 3px;
+  background-color: white;
+  margin-top: 6px;
+  position: absolute;
+  transform: rotate(-45deg);
+}
+.l6 {
+  display: none;
+}
+.toggle {
+  display: inline-block;
+}
+@media only screen and (min-width: 1000px) {
+  .btns {
+    position: absolute;
+    width: 700px;
+    right: 5%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    display: inline-block !important;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .navbar {
+    background-color: #393e46;
+  }
+  .button {
+    display: inline-block;
+  }
+  .btns {
+    position: absolute;
+    width: 100%;
+    height: 1000%;
+    right: 0%;
+    top: 80px;
+    justify-content: center;
+    text-align: center;
+    display: none;
+    background: #393e46;
+  }
+  .anc {
+    margin-top: 50px;
+    margin-right: 0px;
+    display: block;
+    text-align: center;
+  }
+  .anc:hover {
+    color: gold;
+    border: none;
+  }
+}

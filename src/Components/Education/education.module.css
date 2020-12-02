@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+.background {
+  font-family: "Questrial", sans-serif !important;
+  text-align: left;
+  position: absolute;
+  margin-top: 90px;
+  width: 100%;
+  height: 180%;
+  background-color: #222831;
+}
+.header {
+  font-family: "Questrial", sans-serif !important;
+  font-size: 6rem;
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin-left: 60px;
+  color: #f35626;
+  background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: hue 10s infinite linear;
+}
+@keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+.img1 {
+  width: 100%;
+  height: 1.5px;
+  background-color: #32e0c4;
+  position: relative;
+  opacity: 0.9;
+}
+.college {
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.head {
+  color: gold;
+  margin-left: 30px;
+  font-size: 2.5rem;
+  margin-top: 80px;
+}
+.para {
+  margin-left: 50px !important;
+  color: #15f4ee;
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+@media only screen and (max-width: 600px) {
+  .header {
+    font-size: 4.2rem;
+    margin-left: 30px;
+    margin-bottom: 100px;
+  }
+  .college {
+    width: 140px;
+    height: 70px;
+  }
+  .background {
+    height: 190%;
+  }
+  .head {
+    color: gold;
+    margin-left: 30px;
+    font-size: 2rem;
+    margin-top: 80px;
+  }
+  .para {
+    margin-left: 50px !important;
+    color: #15f4ee;
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .header {
+    font-size: 3.5rem;
+    margin-left: 30px;
+    margin-bottom: 100px;
+  }
+  .college {
+    width: 140px;
+    height: 70px;
+  }
+  .background {
+    height: 190%;
+  }
+  .head {
+    color: gold;
+    margin-left: 20px;
+    font-size: 1.7rem;
+    margin-top: 80px;
+  }
+  .para {
+    margin-left: 50px !important;
+    color: #15f4ee;
+    font-size: 1rem;
+  }
+}
