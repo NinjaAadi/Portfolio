@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import classes from "./navbar.module.css";
 import { Link } from "react-router-dom";
+import resume from "../../assets/resume_aadityapal.pdf";
+
 const Navbar = () => {
   useEffect(() => {
     window.addEventListener("scroll", (e) => {
@@ -72,9 +74,9 @@ const Navbar = () => {
         <Link to="/skills" className={classes["anc"]} onClick={e => clicked(e)}>
           Skills
         </Link>
-        <Link to="/resume" className={classes["anc"]} onClick={e => clicked(e)}>
+        <a target = "_blank"href = {resume} className={classes["anc"]} >
           Resume
-        </Link>
+        </a>
       </div>
       {btn}
     </div>

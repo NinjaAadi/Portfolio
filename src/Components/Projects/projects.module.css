@@ -33,18 +33,17 @@
   width: 400px;
   height: 300px;
   right: 5%;
-  top:0px;
+  top: 0px;
 }
 .github {
-  width: 60px;
-  height: 60px;
   margin-left: 40px;
-  border-radius: 50%;
-  margin-top: 20px;
+  margin-bottom: 60px;
   cursor: pointer;
+  font-size: 17px;
+  color: #15f4ee;
 }
 .projects {
-  margin-top:50px;
+  margin-top: 50px;
   margin-left: 40px;
   color: gold;
   font-size: 3rem;
@@ -55,13 +54,24 @@
   font-size: 1.6rem;
 }
 .list {
-  color: #15f4ee;
+  color: lightgreen;
   margin-bottom: 10px;
-  margin-left: 50px;
+  margin-left: 20px;
   font-size: 1.2rem;
 }
 .para {
   color: #15f4ee;
+}
+.git{
+  width: 100%;
+  margin-top: 120px;
+  text-align: center;
+  color:lightgreen;
+}
+.gitpic{
+  height: 100px;
+  width: 100px;
+  border-radius: 30px;
 }
 @media only screen and (max-width: 1200px) {
   .college {
@@ -104,5 +114,50 @@
     color: #a3f7bf;
     margin-left: 35px;
     font-size: 1.4rem;
+  }
+}
+.project {
+  display: grid;
+  grid-template-columns: auto auto;
+
+  background-color: grey;
+  margin-top: 150px;
+}
+.child {
+  background-color: #222831;
+  font-size: 27px;
+  padding: 25px;
+}
+.about {
+  position: relative;
+  font-size: 22px;
+  margin-left: 10px;
+  color: gold;
+}
+.desc {
+  position: relative;
+  color: #15f4ee;
+  margin-left: 20px;
+  letter-spacing: 1.2px;
+  font-weight: lighter;
+  font-size: 19px;
+}
+.heading {
+  color: orange;
+  font-size: 29px;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 871px) {
+  .project {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    margin-top: 150px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .project {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    margin-top: 60px;
   }
 }

@@ -8,7 +8,7 @@ const Home = () => {
     <div className={classes["background"]}>
       <img className={classes["img1"]} src={picture} />
       <div className={classes["head"]}>
-        <h1 className={classes["h1"]}> Hi! There</h1>
+        <h1 className={classes["h1"]}> Hi! :-)</h1>
         <h3 className={classes["header"]}>Aaditya here!</h3>
       </div>
       <br />
