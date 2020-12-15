@@ -4,7 +4,6 @@ import Experience from './Components/Experience/Experience';
 import Education from "./Components/Education/Education";
 import Project from './Components/Projects/Projects';
 import Skills from './Components/Awards/skills';
-import Resume from './Components/Resume/Resume'
 import {Route,Switch} from 'react-router-dom';
 function App() {
   return (
@@ -16,7 +15,6 @@ function App() {
         <Route exact path="/education" component={Education} />
         <Route exact path="/projects" component={Project} />
         <Route exact path="/skills" component={Skills} />
-        <Route exact path="/resume" component={Resume} />
       </Switch>
     </div>
   );
