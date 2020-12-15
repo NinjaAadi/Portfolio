@@ -11,7 +11,7 @@ const Pbar = ({ done, skill }) => {
     };
 
     setStyle(newStyle);
-  }, 200);
+  }, 150);
 
   return (
     <div className={classes["progress"]}>

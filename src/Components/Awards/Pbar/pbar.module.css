@@ -4,9 +4,9 @@
   background-color: #d8d8d8;
   border-radius: 20px;
   position: relative;
-  margin: 40px 30px;
-  height: 30px;
-  width: 50%;
+  margin: 40px 60px;
+  height: 25px;
+  width: 40%;
   font-family: "Questrial", sans-serif !important;
 }
 
@@ -27,7 +27,18 @@
   font-size: 18px;
   width: 10%;
   position: absolute;
-  bottom: 15px;
+  bottom: 12px;
   left: 2px;
   color: white;
+}
+@media only screen and (max-width:900px){
+    .progress{
+      width: 80%;
+    }
+}
+@media only screen and (max-width:500px){
+  .progress{
+    margin-left: 20px;
+    width: 90%;
+  }
 }
