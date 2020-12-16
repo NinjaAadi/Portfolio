@@ -117,6 +117,10 @@ hr {
   width: 250px;
   margin: auto;
 }
+.cont{
+  font-family: "Questrial", sans-serif !important;
+ color:white;
+}
 @media only screen and (max-width: 1250px) {
   .h1 {
     font-size: 3rem;

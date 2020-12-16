@@ -18,6 +18,7 @@ const Home = () => {
       <br />
       <div className={classes["contact"]}>
         <div className={classes["contacts"]}>
+          <p className = {classes["cont"]}>Reach Me</p>
           <a href="https://github.com/NinjaAadi" target="_blank">
             <img className={classes["ct1"]} src={github} />
           </a>
@@ -36,7 +37,7 @@ const Home = () => {
         </div>
       </div>
       <div className={classes["code"]}>
-        <p className={classes["para"]}>"Be a top-class learner&#128526;"</p>
+        <p className={classes["para"]}>"Learn to learn&#128526;"</p>
         <img className={classes["profile2"]} src={profile2} />
       </div>
       <br />
@@ -58,7 +59,7 @@ const Home = () => {
         </p>
         <h2 className={classes["h3"]}>Profile Photo </h2>
         <img className={classes["profile"]} src={profile} />
-        <h2 className={classes["h3"]}>Location : </h2>
+        <h2 className={classes["h3"]}>Location</h2>
         <p align="justify" className={classes["h4"]}>
           Lowadih Chowk, Litchi Bagan, Namkum Ranchi Jharkhand Pin:834010
         </p>
