@@ -9,16 +9,14 @@ const Project = () => {
       <img src={img} className={classes["college"]} />
       <h1 className={classes["header"]}>Projects</h1>
       <div className={classes["git"]}>
-        <h1>
-          My Github
-        </h1>
-        <a href = "https://github.com/NinjaAadi">
-          <img src = {github} className={classes["gitpic"]}></img>
+        <h1>My Github</h1>
+        <a href="https://github.com/NinjaAadi">
+          <img src={github} className={classes["gitpic"]}></img>
         </a>
       </div>
-        <div className={classes["project"]}>
-          <div className={classes["child"]}>
-            <p className={classes["heading"]}>Smit_Dev</p>
+      <div className={classes["project"]}>
+        <div className={classes["child"]}>
+          <p className={classes["heading"]}>Smit_Dev</p>
           <h4 className={classes["about"]}>Description</h4>
           <h4 className={classes["desc"]}>
             This is a blogging website for college students.There are several
