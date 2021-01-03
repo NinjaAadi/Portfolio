@@ -10,9 +10,9 @@ const Navbar = () => {
       const nav = document.getElementById("nav");
       if (window.innerWidth > 1000) {
         if (height > 20) {
-          nav.style.backgroundColor = "#393e46";
+          nav.style.backgroundColor = "#455d7a";
         } else {
-          nav.style.backgroundColor = "#222831";
+          nav.style.backgroundColor = "#233142";
         }
       }
     });

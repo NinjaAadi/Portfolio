@@ -2,7 +2,6 @@ import classes from "./projects.module.css";
 import img from "../../assets/projects.svg";
 import github from "../../assets/github.png";
 
-
 const Project = () => {
   return (
     <div className={classes["background"]}>
