@@ -82,7 +82,7 @@ const Secondback = () => {
               </h1>
             </div>
             <div className={classes["label"]} data-aos="fade-down">
-              <h2>
+              <h2 className={classes["h2"]}>
                 Email{" "}
                 <i
                   class="fas fa-envelope-square"
@@ -98,7 +98,7 @@ const Secondback = () => {
             </div>
 
             <div className={classes["label"]} data-aos="fade-down">
-              <h2>
+              <h2 className={classes["h2"]}>
                 Phone <i class="fas fa-phone" style={{ color: "#008891" }}></i>
               </h2>
               <a className={classes["anc"]} href="tel:+917903966014">
@@ -106,7 +106,7 @@ const Secondback = () => {
               </a>
             </div>
             <div className={classes["label"]} data-aos="fade-down">
-              <h2>
+              <h2 className={classes["h2"]}>
                 Address{" "}
                 <i class="far fa-address-card" style={{ color: "#008891" }}></i>
               </h2>

@@ -3,13 +3,14 @@ import classes from "./Firstback.module.css";
 import Typewriter from "typewriter-effect";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import back from "../../../assets/back.svg";
 
 const Firstback = (props) => {
   useEffect(() => {
     Aos.init({ duration: 1000 });
   }, []);
   return (
-    <div className={classes["body"]}>
+    <div className={classes["body"]} style={{backgroundImage:`url(${back})`,opacity:"0.8"}}>
       <div data-aos="fade-right" className={classes["div1"]}>
         <div className={classes["hello"]}>
           <h1>
