@@ -35,6 +35,12 @@ const Secondback = () => {
                 My hobbies include novels, driving and music.
               </p>
             </div>
+            <div className={classes["follow"]}>
+              <h2 data-aos="fade-down">
+                Follow
+                <i class="fas fa-eye" style={{ color: "#0071c5",marginLeft:"15px"}}></i>
+              </h2>
+            </div>
             <div className={classes["label1"]} data-aos="fade-down">
               <a
                 href="https://www.instagram.com/____aaditya001____/"
@@ -86,7 +92,7 @@ const Secondback = () => {
                 Email{" "}
                 <i
                   class="fas fa-envelope-square"
-                  style={{ color: "#008891" }}
+                  style={{ color: "#008891", fontSize: "1.5rem" }}
                 ></i>
               </h2>
               <a
@@ -99,7 +105,11 @@ const Secondback = () => {
 
             <div className={classes["label"]} data-aos="fade-down">
               <h2 className={classes["h2"]}>
-                Phone <i class="fas fa-phone" style={{ color: "#008891" }}></i>
+                Phone{" "}
+                <i
+                  class="fas fa-phone"
+                  style={{ color: "#008891", fontSize: "1.5rem" }}
+                ></i>
               </h2>
               <a className={classes["anc"]} href="tel:+917903966014">
                 +917903966014
@@ -108,7 +118,10 @@ const Secondback = () => {
             <div className={classes["label"]} data-aos="fade-down">
               <h2 className={classes["h2"]}>
                 Address{" "}
-                <i class="far fa-address-card" style={{ color: "#008891" }}></i>
+                <i
+                  class="far fa-address-card"
+                  style={{ color: "#008891", fontSize: "1.5rem" }}
+                ></i>
               </h2>
               <p className={classes["anc"]}>
                 Lowadih Chowk, Litch Bagan Namkun Ranchi, Jharkhand

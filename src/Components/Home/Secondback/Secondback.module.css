@@ -64,19 +64,28 @@
   font-size: 1.2rem;
   display: flex;
   justify-content: space-around;
-  margin-top:100px;
+  margin-top: 100px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .icon {
   display: inline-block;
   font-size: 3rem;
-  color: #0071c5;
+  color: #323643;
 }
 .anc {
   text-decoration: none;
   color: #606470;
 }
-.h2{
+.h2 {
   margin-bottom: 40px;
+}
+.follow {
+  width: 100%;
+  text-align: center;
+  height: 0px;
+  font-size: 1.5rem;
 }
 @media only screen and (max-width: 880px) {
   .div1 {
@@ -84,6 +93,7 @@
   }
   .div2 {
     width: 100%;
+    padding-top: 30px;
   }
   .flex {
     flex-direction: row;
