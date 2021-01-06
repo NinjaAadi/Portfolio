@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 
 const Firstback = (props) => {
   useEffect(() => {
-    Aos.init({ duration: 1000, disable: "mobile" });
+    Aos.init({ duration: 1000 });
   }, []);
   return (
     <div className={classes["body"]}>
@@ -30,7 +30,7 @@ const Firstback = (props) => {
                   "A Competitive Programmer!",
                   "An Extrovert!",
                   "Always ready to learn!",
-                  "Noob Coder!"
+                  "Noob Coder!",
                 ],
                 autoStart: true,
                 loop: true,

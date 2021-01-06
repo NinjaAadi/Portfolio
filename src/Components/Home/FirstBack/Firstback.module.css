@@ -49,10 +49,7 @@
   color: #facf5a;
   font-family: "Poppins", sans-serif;
   opacity: 0.9;
-  background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-animation: hue 10s infinite linear;
+
 }
 @keyframes hue {
   from {
@@ -134,5 +131,8 @@
   }
   .hello {
     font-size: 1rem;
+  }
+  .body{
+    height: 60vh;
   }
 }
