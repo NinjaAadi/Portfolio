@@ -6,13 +6,15 @@ import "aos/dist/aos.css";
 
 const Firstback = (props) => {
   useEffect(() => {
-    Aos.init({ duration: 1000 });
+    Aos.init({ duration: 1000, disable: "mobile" });
   }, []);
   return (
     <div className={classes["body"]}>
       <div data-aos="fade-right" className={classes["div1"]}>
         <div className={classes["hello"]}>
-          <h1>Hello, I am </h1>
+          <h1>
+            Hello <i class="fas fa-fist-raised"></i>, I am{" "}
+          </h1>
         </div>
         <div className={classes["name"]}>
           <h1>Aaditya Pal</h1>
@@ -28,6 +30,7 @@ const Firstback = (props) => {
                   "A Competitive Programmer!",
                   "An Extrovert!",
                   "Always ready to learn!",
+                  "Noob Coder!"
                 ],
                 autoStart: true,
                 loop: true,
@@ -35,13 +38,8 @@ const Firstback = (props) => {
             />
           </div>
         </div>
-        <div data-aos="flip-up" className={classes["buttondiv"]}>
-          <button className={classes["aboutus"]}>
-            About Me <i class="fas fa-arrow-down"></i>
-          </button>
-        </div>
       </div>
-      <div className={classes["div2"]} data-aos="slide-down">
+      <div className={classes["div2"]}>
         <div
           className={classes["image"]}
           style={{ backgroundImage: `url(${props.image})` }}

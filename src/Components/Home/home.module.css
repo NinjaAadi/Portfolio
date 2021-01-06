@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@500&display=swap");
-
+* {
+  scroll-behavior: smooth;
+}
 .background {
   background-color: #233142;
   position: absolute;
   width: 100%;
   top: 90px;
-  height: 100%;
 }
