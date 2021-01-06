@@ -86,10 +86,18 @@
   text-align: center;
   height: 0px;
   font-size: 1.5rem;
+  margin-top: 50px;
 }
 @media only screen and (max-width: 880px) {
+  .body {
+    height: 95vh;
+  }
+  .about{
+    font-size: 1.3rem;
+  }
   .div1 {
     width: 100%;
+    height: 100%;
   }
   .div2 {
     width: 100%;
@@ -97,5 +105,13 @@
   }
   .flex {
     flex-direction: row;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .body {
+    height: 110vh;
+  }
+  .label1 {
+    width:90%;
   }
 }
