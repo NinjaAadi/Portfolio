@@ -51,13 +51,19 @@
   font-family: "Goldman", cursive;
   opacity: 0.9;
 }
-@keyframes hue {
-  from {
-    -webkit-filter: hue-rotate(0deg);
-  }
-  to {
-    -webkit-filter: hue-rotate(-360deg);
-  }
+.downimage{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 160px;
+}
+.downimg{
+  background-size: contain;
+  width: 160px;
+  margin:auto
+
 }
 .text {
   display: inline;
@@ -133,6 +139,17 @@
     font-size: 1rem;
   }
   .body {
-    height: 80vh !important;
+    height: 85vh !important;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .name {
+    font-size: 1.7rem;
+  }
+  .hello {
+    font-size: 1rem;
+  }
+  .body {
+    height: 95vh !important;
   }
 }

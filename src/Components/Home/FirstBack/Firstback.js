@@ -4,7 +4,7 @@ import Typewriter from "typewriter-effect";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import back from "../../../assets/back.svg";
-
+import down from "../../../assets/down.svg"
 const Firstback = (props) => {
   useEffect(() => {
     Aos.init({ duration: 1000 });
@@ -38,6 +38,9 @@ const Firstback = (props) => {
               }}
             />
           </div>
+        </div>
+        <div className={classes["downimage"]}>
+              <img className={classes["downimg"]} src={down}/>
         </div>
       </div>
       <div className={classes["div2"]}>
