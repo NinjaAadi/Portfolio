@@ -12,36 +12,56 @@ const Secondback = () => {
     <Fragment>
       <div className={classes["body"]}>
         <div className={classes["about"]}>
-          <h1 className={classes["head"]} data-aos="fade-down">
-            About Me
-          </h1>
+          <h1 data-aos="zoom-in">About Me</h1>
         </div>
         <div className={classes["flex"]}>
           <div className={classes["div1"]}>
-            <div className={classes["head1"]}>
-              <h1 data-aos="fade-right">
-                Info{" "}
-                <i class="fas fa-info-circle" style={{ color: "#0071c5" }}></i>
+            <div className={classes["label"]}>
+              <h1 data-aos="fade-up">
+                Info
+                <i
+                  class="fas fa-question-circle"
+                  style={{
+                    marginLeft: "8px",
+                    color: "#00587a",
+                    fontSize: "1.6rem",
+                  }}
+                ></i>
               </h1>
             </div>
-            <div className={classes["aboutme"]} data-aos="fade-up">
-              <p>
-                Hii , My name is{" "}
-                <b style={{ color: "#a3d2ca", fontSize: "2rem" }}>
+            <div className={classes["para"]}>
+              <p data-aos="zoom-in">
+                Hii , My name is
+                <b
+                  style={{
+                    color: "#606470",
+                    fontSize: "1.5rem",
+                    marginLeft: "10px",
+                  }}
+                >
                   Aaditya Pal
                 </b>
                 . I am currently 20 years old. I am a full stack web developer.I
                 also practice Competitive Programming.I am currently a student.
-                My hobbies include novels, driving and music.
+                My hobbies include novels, driving, music and obviously
+                programming.
               </p>
             </div>
-            <div className={classes["follow"]}>
-              <h2 data-aos="fade-down">
-                Follow
-                <i class="fas fa-eye" style={{ color: "#0071c5",marginLeft:"15px"}}></i>
-              </h2>
+            <br />
+            <div className={classes["label"]}>
+              <h1 data-aos="fade-up">
+                Follow Me{" "}
+                <i
+                  class="fas fa-user-plus"
+                  style={{
+                    marginLeft: "8px",
+                    color: "#00587a",
+                    fontSize: "1.6rem",
+                  }}
+                ></i>
+              </h1>
             </div>
-            <div className={classes["label1"]} data-aos="fade-down">
+            <div className={classes["follow"]} data-aos="zoom-out">
               <a
                 href="https://www.instagram.com/____aaditya001____/"
                 target="_blank"
@@ -81,19 +101,22 @@ const Secondback = () => {
             </div>
           </div>
           <div className={classes["div2"]}>
-            <div className={classes["head1"]}>
-              <h1 data-aos="fade-down">
-                Contact Me{"  "}
-                <i class="fas fa-id-card-alt" style={{ color: "#0071c5" }}></i>
+            <div className={classes["label"]}>
+              <h1 data-aos="fade-up">
+                Contact Me{" "}
+                <i
+                  class="fas fa-id-card-alt"
+                  style={{
+                    marginLeft: "8px",
+                    color: "#00587a",
+                    fontSize: "1.6rem",
+                  }}
+                ></i>
               </h1>
             </div>
-            <div className={classes["label"]} data-aos="fade-down">
-              <h2 className={classes["h2"]}>
-                Email{" "}
-                <i
-                  class="fas fa-envelope-square"
-                  style={{ color: "#008891", fontSize: "1.5rem" }}
-                ></i>
+            <div className={classes["minlabel"]} data-aos="fade-down">
+              <h2>
+                Email <i class="fas fa-envelope"></i>
               </h2>
               <a
                 className={classes["anc"]}
@@ -102,32 +125,28 @@ const Secondback = () => {
                 aadityapal.info@gmail.com
               </a>
             </div>
-
-            <div className={classes["label"]} data-aos="fade-down">
-              <h2 className={classes["h2"]}>
-                Phone{" "}
-                <i
-                  class="fas fa-phone"
-                  style={{ color: "#008891", fontSize: "1.5rem" }}
-                ></i>
+            <div className={classes["minlabel"]} data-aos="fade-down">
+              <h2>
+                Phone <i class="fas fa-phone"></i>
               </h2>
               <a className={classes["anc"]} href="tel:+917903966014">
-                +917903966014
+                +91-7903966014
               </a>
             </div>
-            <div className={classes["label"]} data-aos="fade-down">
-              <h2 className={classes["h2"]}>
-                Address{" "}
-                <i
-                  class="far fa-address-card"
-                  style={{ color: "#008891", fontSize: "1.5rem" }}
-                ></i>
+            <div className={classes["minlabel"]} data-aos="fade-down">
+              <h2>
+                Address <i class="fas fa-street-view"></i>
               </h2>
-              <p className={classes["anc"]}>
-                Lowadih Chowk, Litch Bagan Namkun Ranchi, Jharkhand
+              <a
+                className={classes["anc"]}
+                href="https://www.google.com/maps/place/Lowadih,+Ranchi,+Jharkhand+834010/@23.3594537,85.3533322,15z/data=!3m1!4b1!4m5!3m4!1s0x39f4e22d0f22d1b7:0xa0ac25821309cd29!8m2!3d23.359795!4d85.362529"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Lowadih Chowk Litchi Bagan Namkum Ranchi, Jharkhand
                 <br />
-                Pin : 834010
-              </p>
+                Pin:834010
+              </a>
             </div>
           </div>
         </div>

@@ -10,7 +10,7 @@ const Navbar = () => {
       const nav = document.getElementById("nav");
       if (window.innerWidth > 1000) {
         if (height > 20) {
-          nav.style.backgroundColor = "#455d7a";
+          nav.style.backgroundColor = "#2c3e52";
         } else {
           nav.style.backgroundColor = "#233142";
         }
@@ -48,33 +48,49 @@ const Navbar = () => {
     );
   }
   const clicked = (e) => {
-    if(window.innerWidth <= 1000){
-            setcond(false);
-            document.getElementById("ancr").style.display = "none";
+    if (window.innerWidth <= 1000) {
+      setcond(false);
+      document.getElementById("ancr").style.display = "none";
     }
-  }
+  };
   return (
     <div id="nav" className={classes["navbar"]}>
       <div className={classes["name"]}>
         <h3>Me.Portfolio</h3>
       </div>
       <div id="ancr" className={classes["btns"]}>
-        <Link to="/" className={classes["anc"]} onClick={e => clicked(e)}>
+        <Link to="/" className={classes["anc"]} onClick={(e) => clicked(e)}>
           Home
         </Link>
-        <Link to="/experience" className={classes["anc"]} onClick={e => clicked(e)}>
+        <Link
+          to="/experience"
+          className={classes["anc"]}
+          onClick={(e) => clicked(e)}
+        >
           Experience
         </Link>
-        <Link to="education" className={classes["anc"]} onClick={e => clicked(e)}>
+        <Link
+          to="education"
+          className={classes["anc"]}
+          onClick={(e) => clicked(e)}
+        >
           Education
         </Link>
-        <Link to="/projects" className={classes["anc"]} onClick={e => clicked(e)}>
+        <Link
+          to="/projects"
+          className={classes["anc"]}
+          onClick={(e) => clicked(e)}
+        >
           Projects
         </Link>
-        <Link to="/skills" className={classes["anc"]} onClick={e => clicked(e)}>
+        <Link
+          to="/skills"
+          className={classes["anc"]}
+          onClick={(e) => clicked(e)}
+        >
           Skills
         </Link>
-        <a target = "_blank"href = {resume} className={classes["anc"]} >
+        <a target="_blank" href={resume} className={classes["anc"]}>
           Resume
         </a>
       </div>
