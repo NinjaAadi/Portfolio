@@ -63,20 +63,6 @@ const Navbar = () => {
           Home
         </Link>
         <Link
-          to="/experience"
-          className={classes["anc"]}
-          onClick={(e) => clicked(e)}
-        >
-          Experience
-        </Link>
-        <Link
-          to="education"
-          className={classes["anc"]}
-          onClick={(e) => clicked(e)}
-        >
-          Education
-        </Link>
-        <Link
           to="/projects"
           className={classes["anc"]}
           onClick={(e) => clicked(e)}

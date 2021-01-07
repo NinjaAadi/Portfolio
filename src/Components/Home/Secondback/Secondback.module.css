@@ -36,7 +36,7 @@
   height: 15%;
   text-align: center;
   font-family: "Poppins", sans-serif;
-  color: #323643;
+  color: #ff884b;
 }
 .para {
   margin-top: 40px !important;
@@ -68,7 +68,12 @@
 }
 .icon {
   font-size: 2.5rem;
-  color: #ef4f4f;
+  color: #323643;
+  transition: all 300ms ease-in;
+}
+.icon:hover{
+  transform: scale(1.1);
+  color:#f95959;
 }
 @media only screen and (max-width: 1500px) {
   .body {

@@ -21,8 +21,8 @@
 }
 .btns {
   position: absolute;
-  width: 700px;
-  right: 5%;
+  width: 40%!important;
+  right: 0%!important;
   height: 100%;
 }
 
@@ -115,7 +115,7 @@
   }
   .btns {
     position: absolute;
-    width: 100%;
+    width: 100%!important;
     height: 1000%;
     right: 0%;
     top: 80px;
