@@ -25,4 +25,22 @@
   transform: translate(-50%, -50%);
   opacity: 1;
   display: block;
+  z-index: 18;
+  cursor: pointer;
 }
+.button {
+  height: 30px;
+  color: red;
+  background: none;
+}
+.p {
+  position: absolute;
+  top: 64%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 20;
+  font-family: "Source Sans Pro", sans-serif;
+  cursor: pointer;
+  height: auto;
+}
+

@@ -3,16 +3,20 @@ import Navbar from "./Components/Navbar/Navbar";
 import Project from "./Components/Projects/Projects";
 import Skills from "./Components/Awards/skills";
 import { Route, Switch } from "react-router-dom";
-function App() {
+import { Provider } from "react-redux";
+import Store from "./Store";
+const App = () => {
   return (
-    <div>
-      <Navbar />
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/projects" component={Project} />
-        <Route exact path="/skills" component={Skills} />
-      </Switch>
-    </div>
+    <Provider store={Store}>
+      <div>
+        <Navbar />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/projects" component={Project} />
+          <Route exact path="/skills" component={Skills} />
+        </Switch>
+      </div>
+    </Provider>
   );
-}
+};
 export default App;

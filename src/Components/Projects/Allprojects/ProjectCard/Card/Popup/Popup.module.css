@@ -1,0 +1,21 @@
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70vw;
+  height: 90vh;
+  background: #455d7a;
+  opacity: 0.5;
+  z-index: 21;
+}
+.project {
+  position: absolute;
+  width: 95%;
+  height: 90%;
+  background-color: #233142;
+  opacity: 1 !important;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

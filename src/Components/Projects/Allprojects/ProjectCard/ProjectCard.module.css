@@ -1,0 +1,11 @@
+.project {
+  width: 75%;
+  height: auto;
+  padding: 20px;
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}

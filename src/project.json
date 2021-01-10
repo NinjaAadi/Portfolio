@@ -1,0 +1,95 @@
+[
+  {
+    "Name": "Smit_developer_official",
+    "Description": "It is a blogging webapp for coding enthusiastic people.People can share there knowledge by writing blogs",
+    "Photo": "smit_developer_official.jpeg",
+    "Features": [
+      "Secure Login and Signin",
+      "Add a profile",
+      "Add a blog, Delete a blog, View a blog",
+      "Like, Dislike a blog",
+      "Comment, Delete a comment",
+      "Create a profile, Update photo, View other profile",
+      "Follow and Unfollow a user"
+    ],
+    "Tech": [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "React",
+      "Node",
+      "Redux",
+      "Express",
+      "MongoDB",
+      "Mongoose"
+    ]
+  },
+  {
+    "Name": "Notelify",
+    "Description": "It is a note taking webapp for all the students that are in a hurry to take notes.",
+    "Photo": "notelify.jpeg",
+    "Features": [
+      "Secure login and signup",
+      "Sketch Making",
+      "Download instant sketch",
+      "Change the brush color",
+      "Write a note and save it"
+    ],
+    "Tech": ["HTML", "CSS", "Javascript", "Jquery", "PHP", "MySQL"]
+  },
+  {
+    "Name": "Coffee_Break",
+    "Description": "It is a website for a cafe where admin can add their items to be sold",
+    "Features": [
+      "Login and Signup",
+      "Add your items",
+      "Shop items to cart",
+      "Place your order",
+      "Pay securely",
+      "Interactive Look"
+    ],
+    "Tech": [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "React",
+      "Node",
+      "Express",
+      "MongoDB",
+      "Mongoose"
+    ]
+  },
+  {
+    "Name": "Ece_Departmental_Website",
+    "Description": "It is a departmental website for publishing notice for all the students of ECE Department",
+    "Photo": "ece_departmental_website.jpeg",
+    "Features": [
+      "Notice Board",
+      "Admin Panel",
+      "Secure Login",
+      "Photo Gallery"
+    ],
+    "Tech": ["HTML", "CSS", "Javascript", "Jquery", "PHP", "MySQL"]
+  },
+  {
+    "Name": "REST_API",
+    "Description": "A API for users to add their bootcamps in which they can add their courses",
+    "Photo": "REST_API.jpeg",
+    "Features": [
+      "Create, Delete, Add Modify a bootcamp",
+      "Add, Delete, Modify, Update a course inside Bootcamp",
+      "Calculate average cost of total costs",
+      "Pagination Page",
+      "Encryption of passwords",
+      "Login, Logout using JWT Token"
+    ],
+    "Tech": ["Node", "Express", "MongoDB", "Mongoose"]
+  },
+  {
+    "Name": "Portfolio",
+    "Description": "A webapp to showcase  myself",
+    "Photo": "portfolio.jpeg",
+    "Features": ["Good Looks", "Animation of Scroll", "Custom Rendering"],
+    "Tech": ["HTML", "CSS", "Javascript", "React","Redux"]
+  }
+]
