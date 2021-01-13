@@ -31,6 +31,7 @@
   z-index: 21;
   cursor: pointer;
   font-size: 25px;
+  height: auto;
 }
 .name {
   width: 90%;
@@ -49,13 +50,20 @@
   margin: auto;
   color: #455d7a;
 }
-.carousel{
+.carousel {
   width: 90%;
   position: relative;
   margin: auto;
+  height: auto;
 }
-.item{
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px!important;
   width: 100%;
-  height: 100px;
-  background-color: red;
+  background-color: #683bb7;
+  color: #fff;
+  margin: 15px;
+  font-size: 4em;
 }

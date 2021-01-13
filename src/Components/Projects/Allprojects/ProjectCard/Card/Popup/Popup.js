@@ -3,8 +3,16 @@ import classes from "./Popup.module.css";
 import { connect } from "react-redux";
 import PropTypes from "prop-types";
 import Carousel from "react-elastic-carousel";
+import Item from "./Item";
+import "./style.css";
 
 const Popup = (props) => {
+  const breakPoints = [
+    { width: 1, itemsToShow: 1 },
+    { width: 550, itemsToShow: 2, itemsToScroll: 2 },
+    { width: 768, itemsToShow: 3 },
+    { width: 1200, itemsToShow: 4 },
+  ];
   const project = props.project.Project;
   return (
     <div className={classes["popup"]}>
@@ -19,13 +27,13 @@ const Popup = (props) => {
           <h2>{project.Description}</h2>
         </div>
         <div className={classes["carousel"]}>
-          <Carousel itemsToShow={2}>
-            <div className={classes["item"]}>1</div>
-            <div className={classes["item"]}> 2</div>
-            <div className={classes["item"]}>3</div>
-            <div className={classes["item"]}>4</div>
-            <div className={classes["item"]}>5</div>
-            <div className={classes["item"]}>6</div>
+          <Carousel itemsToShow={3} breakPoints={breakPoints}>
+            <Item>1</Item>
+            <Item>1</Item>
+            <Item>1</Item>
+            <Item>1</Item>
+            <Item>1</Item>
+            <Item>1</Item>
           </Carousel>
         </div>
       </div>
