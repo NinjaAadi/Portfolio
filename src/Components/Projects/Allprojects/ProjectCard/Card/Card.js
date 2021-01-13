@@ -1,21 +1,47 @@
 import classes from "./Card.module.css";
-import React, { Fragment, useEffect } from "react";
-import Aos from "aos";
-import "aos/dist/aos.css";
+import React, { Fragment, useEffect, useState } from "react";
 import Popup from "./Popup/Popup";
+import { setproject } from "../../../../../Actions/project";
+import PropTypes from "prop-types";
+import { connect } from "react-redux";
+import project from "../../../../../assets/project.svg";
 
 const Card = (props) => {
-  useEffect(() => {
-    Aos.init({ duration: 1000, enable: "mobile" });
-  }, []);
+  //project is in props.project
+  const [toggle, settogle] = useState(false);
+  const toggler = async () => {
+    await props.setproject(props.project);
+    if (toggle === false) {
+      settogle(true);
+    } else {
+      settogle(false);
+    }
+  };
+
   return (
     <Fragment>
-      <div data-aos="fade-down" className={classes["card"]}>
-          <button>Click Me</button>
+      <div className={classes["card"]}>
+        <div className={classes["head"]}>
+          <h1>{props.project.Name}</h1>
+        </div>
+        <button className={classes["button"]} onClick={(e) => toggler()}>
+          View 
+        </button>
+        <div
+          style={{ backgroundImage: `url(${project})` }}
+          className={classes["probulb"]}
+        ></div>
+        <div className={classes["code"]}>
+          <i class="fas fa-code-branch"></i>
+        </div>
       </div>
-      <Popup/>
+      {toggle === true ? <Popup click={toggler} /> : <Fragment></Fragment>}
     </Fragment>
   );
 };
 
-export default Card;
+Card.propTypes = {
+  setproject: PropTypes.func.isRequired,
+};
+
+export default connect(null, { setproject })(Card);

@@ -5,17 +5,25 @@
   transform: translate(-50%, -50%);
   width: 70vw;
   height: 90vh;
-  background: #455d7a;
-  opacity: 0.5;
+  background: white;
+  opacity: 1;
   z-index: 21;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .project {
   position: absolute;
-  width: 95%;
-  height: 90%;
-  background-color: #233142;
+  width: 100%;
+  height: 100%;
   opacity: 1 !important;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.cross {
+  position: absolute;
+  top: -10px;
+  right: 15px;
+  color: #0f3057;
+  z-index: 21;
+  cursor: pointer;
 }
