@@ -51,7 +51,7 @@
   transform: translate(-50%, -50%);
   color: yellow;
   background-color: #30475e;
-  border: 2px solid #f95959;
+  border: 4px solid #f95959;
   border-radius: 5%;
   display: none;
   transition: all 0.35s ease !important;

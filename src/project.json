@@ -9,7 +9,8 @@
       "Add a blog, Delete a blog, View a blog",
       "Like, Dislike a blog",
       "Comment, Delete a comment",
-      "Create a profile, Update photo, View other profile",
+      "Create a profile, Update photo",
+      "View other profile",
       "Follow and Unfollow a user"
     ],
     "Tech": [
@@ -78,7 +79,8 @@
     "Github": "https://github.com/NinjaAadi/REST-API-on-nodejs",
     "Features": [
       "Create, Delete, Add Modify a bootcamp",
-      "Add, Delete, Modify, Update a course inside Bootcamp",
+      "Add, Delete, Modify",
+      "Update a course inside Bootcamp",
       "Calculate average cost of total costs",
       "Pagination Page",
       "Encryption of passwords",
