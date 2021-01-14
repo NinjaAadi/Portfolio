@@ -1,6 +1,19 @@
 .rec-carousel-wrapper {
-  height: 250px;
+  height: 10vw;
 }
 .rec .rec-carousel {
-  height: 200px !important;
+  height: 10vw !important;
 }
+.rec.rec-arrow {
+    background-color: #455d7a;
+    color: white;
+}
+.rec.rec-arrow:focus {
+    background-color: #f95959!important;
+    color: white;
+}
+.rec.rec-arrow:hover {
+    background-color: #f95959!important;
+    color: white;
+}
+@media only scree

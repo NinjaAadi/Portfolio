@@ -6,10 +6,13 @@
     "Features": [
       "Secure Login and Signin",
       "Add a profile",
-      "Add a blog, Delete a blog, View a blog",
+      "Add a blog",
+      "Delete a blog",
+      "View a blog",
       "Like, Dislike a blog",
       "Comment, Delete a comment",
-      "Create a profile, Update photo",
+      "Create a profile",
+      "Update photo",
       "View other profile",
       "Follow and Unfollow a user"
     ],
@@ -21,8 +24,7 @@
       "Node",
       "Redux",
       "Express",
-      "MongoDB",
-      "Mongoose"
+      "MongoDB"
     ]
   },
   {
@@ -50,16 +52,7 @@
       "Pay securely",
       "Interactive Look"
     ],
-    "Tech": [
-      "HTML",
-      "CSS",
-      "Javascript",
-      "React",
-      "Node",
-      "Express",
-      "MongoDB",
-      "Mongoose"
-    ]
+    "Tech": ["HTML", "CSS", "Javascript", "React", "Node", "Express", "MongoDB"]
   },
   {
     "Name": "Ece_Website",
@@ -78,15 +71,15 @@
     "Description": "A API for users to add their bootcamps in which they can add their courses",
     "Github": "https://github.com/NinjaAadi/REST-API-on-nodejs",
     "Features": [
-      "Create, Delete, Add Modify a bootcamp",
+      "Create, Delete, Add a bootcamp",
       "Add, Delete, Modify",
       "Update a course inside Bootcamp",
-      "Calculate average cost of total costs",
+      "Calculate average costs",
       "Pagination Page",
       "Encryption of passwords",
       "Login, Logout using JWT Token"
     ],
-    "Tech": ["Node", "Express", "MongoDB", "Mongoose"]
+    "Tech": ["Node", "Express", "MongoDB"]
   },
   {
     "Name": "Portfolio",

@@ -1,10 +1,19 @@
-import React, { useEffect } from "react";
 import classes from "./Popup.module.css";
 import { connect } from "react-redux";
 import PropTypes from "prop-types";
 import Carousel from "react-elastic-carousel";
-import Item from "./Item";
 import "./style.css";
+import React from "../../../../../../assets/React.svg";
+import Node from "../../../../../../assets/Node.svg";
+import PHP from "../../../../../../assets/PHP.svg";
+import MongoDB from "../../../../../../assets/MongoDB.svg";
+import Express from "../../../../../../assets/Express.svg";
+import Jquery from "../../../../../../assets/Jquery.png";
+import HTML from "../../../../../../assets/HTML.svg";
+import CSS from "../../../../../../assets/CSS.svg";
+import Javascript from "../../../../../../assets/Javascript.svg";
+import MySQL from "../../../../../../assets/MySQL.svg";
+import Redux from "../../../../../../assets/Redux.svg";
 
 const Popup = (props) => {
   const breakPoints = [
@@ -13,6 +22,19 @@ const Popup = (props) => {
     { width: 768, itemsToShow: 3 },
     { width: 1200, itemsToShow: 4 },
   ];
+  const Image = {
+    React: React,
+    Node: Node,
+    PHP: PHP,
+    MongoDB: MongoDB,
+    Express: Express,
+    Jquery: Jquery,
+    HTML: HTML,
+    CSS: CSS,
+    Javascript: Javascript,
+    MySQL: MySQL,
+    Redux:Redux
+  };
   const project = props.project.Project;
   return (
     <div className={classes["popup"]}>
@@ -28,22 +50,34 @@ const Popup = (props) => {
         </div>
         <div className={classes["carousel"]}>
           <Carousel itemsToShow={3} breakPoints={breakPoints}>
-            <Item>1</Item>
-            <Item>1</Item>
-            <Item>1</Item>
-            <Item>1</Item>
-            <Item>1</Item>
-            <Item>1</Item>
+            {project.Features.map((item) => {
+              return (
+                <div className={classes["item"]}>
+                  <div className={classes["text"]}>{item}</div>
+                </div>
+              );
+            })}
           </Carousel>
+        </div>
+        <div className={classes["skill"]}>
+          {project.Tech.map((skill) => {
+            const photo = Image[`${skill}`];
+            return (
+              <div
+                className={classes["icon"]}
+                style={{ backgroundImage: `url(${photo})` }}
+              ></div>
+            );
+          })}
         </div>
       </div>
     </div>
   );
 };
-
 const mapStateToProps = (state) => ({
   project: state.Project,
 });
+
 Popup.propTypes = {
   project: PropTypes.object.isRequired,
 };
