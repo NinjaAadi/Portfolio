@@ -18,12 +18,11 @@
   text-transform: uppercase;
 }
 .bulb {
-  width: 200px;
+  width: 300px;
   position: absolute;
-  top: 95%;
+  top: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
-  opacity: 0.8;
   display: block;
   z-index: 18;
   cursor: pointer;

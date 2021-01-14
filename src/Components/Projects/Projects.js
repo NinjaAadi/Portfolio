@@ -1,8 +1,7 @@
 import React, { Fragment, useEffect, useState } from "react";
 import classes from "./projects.module.css";
 import back from "../../assets/back.svg";
-import bulb from "../../assets/bulb.svg";
-import bulboff from "../../assets/bulboff.svg";
+import proj from "../../assets/proj.svg";
 import Carousel from "./Carousel/Carousel";
 import Allprojects from "./Allprojects/Allprojects";
 import Aos from "aos";
@@ -12,25 +11,7 @@ const Project = () => {
   useEffect(() => {
     Aos.init({ duration: 1000, enable: "mobile" });
   }, []);
-  const [img, setimg] = useState({
-    img: bulb,
-    on: true,
-  });
-  const toggle = () => {
-    if (img.on === true) {
-      setimg({
-        ...img,
-        img: bulboff,
-        on: false,
-      });
-    } else {
-      setimg({
-        ...img,
-        img: bulb,
-        on: true,
-      });
-    }
-  };
+
   return (
     <Fragment>
       <div
@@ -43,13 +24,7 @@ const Project = () => {
             <i class="fas fa-code" style={{ color: "#ff7b54" }}></i>
           </h1>
         </div>
-        <p onClick={(e) => toggle(e)} className={classes["p"]}></p>
-        <img
-          onClick={(e) => toggle(e)}
-          className={classes["bulb"]}
-          src={img.img}
-          alt="bulb"
-        />
+        <img className={classes["bulb"]} src={proj} alt="bulb" />
       </div>
       <Carousel />
       <Allprojects />
