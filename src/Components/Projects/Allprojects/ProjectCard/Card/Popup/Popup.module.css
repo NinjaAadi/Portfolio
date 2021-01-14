@@ -70,26 +70,92 @@
   font-size: 17px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
-.text{
+.text {
   height: auto;
   margin: auto;
   width: 80%;
   text-align: center;
-
 }
-.skill{
+.skill {
   height: auto;
   width: 80%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin:auto;
+  margin: auto;
   position: relative;
   margin-top: 6%;
 }
-.icon{
+.icon {
   width: 60px;
   height: 60px;
   background-size: contain;
+}
+@media only screen and (max-width: 900px) {
+  .item {
+    height: 12vw;
+  }
+  .name {
+    font-size: 2vw;
+  }
+  .heading {
+    font-size: 1.5vw;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .item {
+    height: 12vw;
+  }
+  .name {
+    font-size: 1.35rem;
+  }
+  .heading {
+    font-size: 0.7rem;
+  }
+  .skill {
+    margin-top: 12%;
+  }
+  .icon {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .skill {
+    margin-top: 16%;
+  }
+  .item {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .name {
+    font-size: 1.1rem;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .name {
+    font-size: 1.1rem;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .name {
+    font-size: 0.9rem;
+  }
+  .heading {
+    font-size: 0.7rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .name {
+    font-size: 0.8rem;
+  }
+  .heading {
+    font-size: 0.6rem;
+  }
+  .item{
+    height: 28vw;
+  }
+
 }
