@@ -33,7 +33,7 @@ const Popup = (props) => {
     CSS: CSS,
     Javascript: Javascript,
     MySQL: MySQL,
-    Redux:Redux
+    Redux: Redux,
   };
   const project = props.project.Project;
   return (
@@ -44,6 +44,16 @@ const Popup = (props) => {
         </h1>
         <div className={classes["name"]}>
           <h1>{project.Name}</h1>
+        </div>
+        <div className={classes["github"]}>
+          <a
+            style={{ textDecoration: "none!important", color: "#0f3057" }}
+            href={project.Github}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i class="fab fa-github"></i>{" "}
+          </a>
         </div>
         <div className={classes["heading"]}>
           <h2>{project.Description}</h2>

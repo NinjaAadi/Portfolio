@@ -8,8 +8,8 @@
   left: 50%;
   transform: translate(-50%, -50%);
   width: 90vw;
-  height: 90vh;
-  background: white;
+  height: 96vh;
+  background: whitesmoke;
   opacity: 1;
   z-index: 21;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -41,22 +41,45 @@
   text-align: center;
   color: #ffffff;
   text-transform: uppercase;
-  font-size: 1.5vw;
+  font-size: 1.3vw;
   font-family: "Comfortaa", cursive;
-  background-color: #ff7b54;
+  background-color: #008891;
   padding: 1px;
 }
+@keyframes git {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
 .heading {
-  width: 80%;
+  width: 70%;
   height: auto;
   text-align: center;
   font-size: 1.2vw;
   margin: auto;
-  margin-top: 5%;
+  margin-top: 3%;
   margin-bottom: 2%;
-  color: #11698e;
+  color: #0f3057;
   font-family: "Comfortaa", cursive;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
+}
+.github {
+  width: 100%;
+  text-align: center;
+  height: auto;
+  font-size: 3rem;
+  margin-top: 20px;
+  color: #0f3057 !important;
+  cursor: pointer;
+  animation: git 2s infinite;
 }
 .carousel {
   width: 90%;
@@ -70,13 +93,13 @@
   align-items: center;
   height: 10vw;
   width: 100%;
-  background-color: #f95959;
-  color: #fff;
+  background-color: #00587a;
+  border-radius: 2px;
+  color: #ffffff;
   margin: 15px;
   font-size: 17px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   font-family: "Comfortaa", cursive;
-  font-weight: 400!important;
+  font-weight: 400 !important;
 }
 .text {
   height: auto;
@@ -147,7 +170,11 @@
     font-size: 1.1rem;
   }
   .skill {
-    margin-top: 27%;
+    margin-top: 10%;
+  }
+  .icon{
+    width: 50px;
+    height: 50px;
   }
 }
 @media only screen and (max-width: 450px) {
@@ -158,7 +185,7 @@
     font-size: 0.7rem;
   }
   .skill {
-    margin-top: 30%;
+    margin-top: 17%;
   }
 }
 @media only screen and (max-width: 400px) {

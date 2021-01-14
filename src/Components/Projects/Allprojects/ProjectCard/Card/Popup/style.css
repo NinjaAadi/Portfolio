@@ -56,3 +56,12 @@
     width: 100%;
   }
 }
+@media only screen and (max-width:340px){
+    .rec-carousel-wrapper {
+    height: 30vw;
+  }
+  .rec .rec-carousel {
+    height: 30vw !important;
+    width: 100%;
+  }
+}
