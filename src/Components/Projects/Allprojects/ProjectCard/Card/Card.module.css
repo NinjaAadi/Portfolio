@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Goldman&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
 
 .card {
   position: relative !important;
@@ -13,7 +14,7 @@
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
     rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
   border-radius: 5px;
-  background-image: linear-gradient(45deg, #ff577f, #ef4f4f);
+  background-image: linear-gradient(45deg, #19456b, #11698e);
   transition: all 300ms linear;
   overflow: hidden;
   animation: time 700ms;
@@ -37,7 +38,7 @@
   justify-content: center;
   overflow: hidden;
   color: white;
-  font-family: "Source Sans Pro", cursive;
+  font-family: "Comfortaa", cursive;
   top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -50,13 +51,13 @@
   height: 40px;
   transform: translate(-50%, -50%);
   color: yellow;
-  background-color: #30475e;
-  border: 4px solid #f95959;
-  border-radius: 5%;
+  background-color: #11698e;
+  border: double 5px #f95959;
+  border-radius: 30px;
   display: none;
   transition: all 0.35s ease !important;
   cursor: pointer;
-  font-family: "Poppins", cursive;
+  font-family: "Comfortaa", cursive !important;
 }
 .button:hover {
   background-color: #f95959;
@@ -69,9 +70,7 @@
   display: none;
 }
 .card:hover {
-  background-image: none;
-  background-color: #30475e !important;
-}
+  background-image: linear-gradient(45deg, #00587a, #008891);}
 .card:hover .head {
   color: white;
   opacity: 1;

@@ -9,6 +9,7 @@ import project from "../../../../../assets/project.svg";
 const Card = (props) => {
   //project is in props.project
   const [toggle, settogle] = useState(false);
+
   const toggler = async () => {
     await props.setproject(props.project);
     if (toggle === false) {
@@ -25,7 +26,7 @@ const Card = (props) => {
           <h1>{props.project.Name}</h1>
         </div>
         <button className={classes["button"]} onClick={(e) => toggler()}>
-          View 
+          View
         </button>
         <div
           style={{ backgroundImage: `url(${project})` }}

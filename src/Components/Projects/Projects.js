@@ -15,7 +15,6 @@ const Project = () => {
   const [img, setimg] = useState({
     img: bulb,
     on: true,
-    text: "OFF",
   });
   const toggle = () => {
     if (img.on === true) {
@@ -23,14 +22,12 @@ const Project = () => {
         ...img,
         img: bulboff,
         on: false,
-        text: "ON",
       });
     } else {
       setimg({
         ...img,
         img: bulb,
         on: true,
-        text: "OFF",
       });
     }
   };
@@ -42,12 +39,11 @@ const Project = () => {
       >
         <div className={classes["head"]}>
           <h1 data-aos="fade-in">
-            My works <i class="fas fa-code" style={{ color: "#ff7b54" }}></i>
+            <i class="fas fa-code" style={{ color: "#ff7b54" }}></i> My works{" "}
+            <i class="fas fa-code" style={{ color: "#ff7b54" }}></i>
           </h1>
         </div>
-        <p onClick={(e) => toggle(e)} className={classes["p"]}>
-          {img.text}
-        </p>
+        <p onClick={(e) => toggle(e)} className={classes["p"]}></p>
         <img
           onClick={(e) => toggle(e)}
           className={classes["bulb"]}

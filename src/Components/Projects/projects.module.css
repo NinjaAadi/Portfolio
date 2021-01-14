@@ -13,7 +13,7 @@
   text-align: center;
   color: whitesmoke;
   padding-top: 50px;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Goldman", sans-serif;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
@@ -23,7 +23,7 @@
   top: 95%;
   left: 50%;
   transform: translate(-50%, -50%);
-  opacity: 1;
+  opacity: 0.8;
   display: block;
   z-index: 18;
   cursor: pointer;
