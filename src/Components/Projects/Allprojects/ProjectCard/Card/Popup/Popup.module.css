@@ -138,6 +138,9 @@
   .name {
     font-size: 1.1rem;
   }
+  .skill {
+    margin-top: 22%;
+  }
 }
 @media only screen and (max-width: 450px) {
   .name {
@@ -154,8 +157,7 @@
   .heading {
     font-size: 0.6rem;
   }
-  .item{
+  .item {
     height: 28vw;
   }
-
 }
