@@ -139,7 +139,7 @@
     font-size: 1.1rem;
   }
   .skill {
-    margin-top: 22%;
+    margin-top: 27%;
   }
 }
 @media only screen and (max-width: 450px) {
@@ -148,6 +148,9 @@
   }
   .heading {
     font-size: 0.7rem;
+  }
+  .skill {
+    margin-top: 30%;
   }
 }
 @media only screen and (max-width: 400px) {
