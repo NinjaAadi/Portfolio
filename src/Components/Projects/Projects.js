@@ -27,6 +27,8 @@ const Project = () => {
         <img className={classes["bulb"]} src={proj} alt="bulb" />
       </div>
       <Carousel />
+      <br/>
+      <div className={classes["hr"]}></div>
       <Allprojects />
     </Fragment>
   );

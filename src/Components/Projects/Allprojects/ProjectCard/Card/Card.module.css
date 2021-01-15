@@ -7,14 +7,13 @@
   position: relative !important;
   width: 270px;
   height: 220px;
-  background-color: tan;
   margin: 15px;
   background-position: center;
   background-size: contain;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
     rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
   border-radius: 5px;
-  background-image: linear-gradient(45deg, #19456b, #11698e);
+  background-color: #19456b;
   transition: all 300ms linear;
   overflow: hidden;
   animation: time 700ms;
@@ -32,7 +31,7 @@
   position: absolute;
   width: 100%;
   height: auto;
-  font-size: 0.81rem;
+  font-size: 0.7rem;
   display: flex;
   text-align: center;
   justify-content: center;
@@ -70,7 +69,8 @@
   display: none;
 }
 .card:hover {
-  background-image: linear-gradient(45deg, #00587a, #008891);}
+  background-color: #11698e;
+}
 .card:hover .head {
   color: white;
   opacity: 1;
@@ -89,7 +89,7 @@
   top: 100%;
   left: 50%;
   font-size: 2.5rem;
-  color: #fdffbc;
+  color: #facf5a;
   transform: translate(-50%, -50%);
 }
 @media only screen and (max-width: 500px) {
