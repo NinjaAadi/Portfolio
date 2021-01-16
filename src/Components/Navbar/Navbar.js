@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import classes from "./navbar.module.css";
 import { Link } from "react-router-dom";
 import resume from "../../assets/resume_aadityapal.pdf";
-
+import logo1 from "../../assets/AP5.png";
 const Navbar = () => {
   useEffect(() => {
     window.addEventListener("scroll", (e) => {
@@ -56,7 +56,11 @@ const Navbar = () => {
   return (
     <div id="nav" className={classes["navbar"]}>
       <div className={classes["name"]}>
-        <h3>Me.Portfolio</h3>
+        <img
+          style={{ width: "50px", height: "30px", marginTop: "15px" }}
+          src={logo1}
+          alt="logo"
+        />
       </div>
       <div id="ancr" className={classes["btns"]}>
         <Link to="/" className={classes["anc"]} onClick={(e) => clicked(e)}>
@@ -76,7 +80,12 @@ const Navbar = () => {
         >
           Skills
         </Link>
-        <a target="_blank" href={resume} className={classes["anc"]}>
+        <a
+          target="_blank"
+          href={resume}
+          rel="noreferrer"
+          className={classes["anc"]}
+        >
           Resume
         </a>
       </div>

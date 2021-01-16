@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@200&display=swap");
+
+.back {
+  width: 100%;
+  height: auto;
+  background-color: #6155a6;
+  padding-top: 1rem;
+  padding-bottom: 5rem;
+}
+.head2 {
+  width: 40%;
+  height: auto;
+  text-align: center;
+  font-family: "Exo 2", sans-serif;
+  margin: auto;
+  margin-top: 50px;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  color: #f6ecf0;
+  margin-bottom: 4rem;
+}
+.icon {
+  width: 100%;
+  height: 100px;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+  font-size: 2.5rem;
+}
+.anc {
+  text-decoration: none;
+  background-color: none;
+  border-radius: 20px;
+  text-align: center;
+  color: #ffffff;
+  transition: all 300ms ease-in;
+}
+.anc:hover {
+  transform: scale(1.1);
+}
+.img {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+.image {
+  width: 70px;
+}
+@media only screen and (max-width: 580px) {
+  .icon {
+    width: 80%;
+    font-size: 2rem;
+  }
+  .head2 {
+    width: 80%;
+  }
+}

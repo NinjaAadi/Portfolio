@@ -27,14 +27,14 @@ const Secondback = () => {
         <div className={classes["cont"]}>
           <div className={classes["hi"]}>
             <h1>
-              Hii, I'm <p className={classes["name"]}>Aaditya Pal</p>. Nice to
+              Hi, I'm <p className={classes["name"]}>Aaditya Pal</p>. Nice to
               meet you!
             </h1>
           </div>
           <div className={classes["about"]} data-aos="fade-down">
             <h2>
-              Hi, I am currently 20 years old. I am a full stack web developer.I
-              also practice Competitive Programming.I am currently a student. My
+              I am currently 20 years old. I am a full stack web developer.I
+              am also a  Competitive Coder.I am currently a student. My
               hobbies include novels, driving, music and obviously programming.
             </h2>
           </div>
