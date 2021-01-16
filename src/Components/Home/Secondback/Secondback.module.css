@@ -1,25 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@200&display=swap");
 .body {
   position: relative;
   width: 100%;
   height: auto;
+  background-color: #f6ecf0;
 }
 .about {
   margin-top: 0%;
   height: auto;
-  width: 65%;
+  width: 35%;
   text-align: center;
   margin: auto;
-  font-family: "Roboto", sans-serif;
+  font-family: "Exo 2", sans-serif;
+  margin-top: 0%;
   letter-spacing: 2px;
   color: black;
-  border-radius: 10px;
+  border-radius: 20px;
   padding: 20px;
   font-size: 1.2rem;
   font-weight: 200 !important;
-  background-color: #e7e7de;
 }
 .hi {
   width: 85%;
@@ -33,16 +34,104 @@
 .name {
   display: inline;
   color: #ff577f;
-  font-size: 3.5rem;
+  font-size: 3rem;
   text-shadow: 1px 0px 1px #cccccc, 0px 1px 1px #eeeeee, 2px 1px 1px #cccccc,
     1px 2px 1px #eeeeee, 3px 2px 1px #cccccc, 2px 3px 1px #eeeeee,
     4px 3px 1px #cccccc, 3px 4px 1px #eeeeee, 5px 4px 1px #cccccc,
     4px 5px 1px #eeeeee, 6px 5px 1px #cccccc, 5px 6px 1px #eeeeee,
     7px 6px 1px #cccccc;
 }
+.cont {
+  background-color: #e7e7de;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.head2 {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-family: "Comfortaa", sans-serif;
+  margin-top: 50px;
+  font-size: 1.5rem;
+  color: #cd5d7d;
+}
+.container {
+  width: 95%;
+  margin: auto;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 10px;
+}
+.child {
+  width: 30.5%;
+  height: 350px;
+  background-color: #949cdf;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.heading {
+  height: auto;
+  width: 100%;
+  text-align: center;
+  font-family: "Exo 2", sans-serif;
+  color: #ffffff;
+}
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #a7c5eb;
+  border-radius: 2px;
+  color: #ffffff;
+  margin: 15px;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: "Comfortaa", cursive;
+  font-weight: 600 !important;
+}
+.arrow {
+  height: 50px;
+  margin: auto 5px auto 5px;
+  background: none;
+  color: white;
+  border: none;
+  font-family: "Comfortaa", cursive;
+  outline: none;
+}
 @media only screen and (max-width: 1500px) {
   .about {
+    font-size: 0.8rem;
+    width: 65%;
+  }
+  .name {
+    font-size: 3rem;
+  }
+  .hi {
     font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .heading {
+    font-size: 0.8rem;
+  }
+  .child {
+    height: 300px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .heading {
+    font-size: 0.8rem;
+  }
+  .child {
+    width: 60%;
+    height: 300px;
   }
 }
 @media only screen and (max-width: 700px) {
@@ -58,6 +147,20 @@
     font-size: 3rem;
   }
 }
+@media only screen and (max-width: 800px) {
+  .heading {
+    font-size: 0.8rem;
+  }
+  .child {
+    width: 70%;
+    height: 330px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .head2 {
+    font-size: 1.3rem;
+  }
+}
 @media only screen and (max-width: 450px) {
   .about {
     font-size: 0.7rem;
@@ -68,5 +171,14 @@
   }
   .name {
     font-size: 2.5rem;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .heading {
+    font-size: 0.8rem;
+  }
+  .child {
+    width: 90%;
+    height: 330px;
   }
 }

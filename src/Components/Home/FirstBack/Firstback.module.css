@@ -38,6 +38,7 @@
   justify-content: center;
   display: flex;
   display: block !important;
+  background-color: #e7e7de;
 }
 .img {
   width: 250px;
@@ -54,7 +55,7 @@
   .head1 {
     font-size: 2rem;
   }
-  .head2{
+  .head2 {
     font-size: 1.4rem;
   }
 }

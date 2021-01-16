@@ -1,0 +1,10 @@
+.rec-carousel-wrapper {
+  position: relative;
+  height: 200px !important;
+}
+.rec .rec-carousel {
+  height: 200px !important;
+}
+.rec .rec-pagination {
+  display: none;
+}
