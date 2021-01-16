@@ -23,7 +23,7 @@ const Thirdback = () => {
 
         <div className={classes["icon"]}>
           <a
-            href="https://app.netlify.com/teams/ninjaaadi/builds/600277e577ecbc0007cd2e0d"
+            href="https://www.linkedin.com/in/aaditya-pal-7903"
             target="_blank"
             rel="noreferrer"
             className={classes["anc"]}
@@ -31,7 +31,7 @@ const Thirdback = () => {
             <i class="fab fa-linkedin-in"></i>
           </a>
           <a
-            href="https://app.netlify.com/teams/ninjaaadi/builds/600277e577ecbc0007cd2e0d"
+            href="https://github.com/NinjaAadi"
             target="_blank"
             rel="noreferrer"
             className={classes["anc"]}
@@ -39,7 +39,7 @@ const Thirdback = () => {
             <i class="fab fa-github"></i>
           </a>
           <a
-            href="https://app.netlify.com/teams/ninjaaadi/builds/600277e577ecbc0007cd2e0d"
+            href="https://www.instagram.com/____aaditya001____/"
             target="_blank"
             rel="noreferrer"
             className={classes["anc"]}
@@ -47,7 +47,7 @@ const Thirdback = () => {
             <i class="fab fa-instagram"></i>
           </a>
           <a
-            href="https://app.netlify.com/teams/ninjaaadi/builds/600277e577ecbc0007cd2e0d"
+            href="https://www.codechef.com/users/ninjaaadi7903"
             target="_blank"
             rel="noreferrer"
             className={classes["anc"]}
@@ -60,13 +60,18 @@ const Thirdback = () => {
             ></span>
           </a>
           <a
-            href="https://app.netlify.com/teams/ninjaaadi/builds/600277e577ecbc0007cd2e0d"
+            href="mailto:aadityapal.info@gmail.com"
             target="_blank"
             rel="noreferrer"
             className={classes["anc"]}
           >
             <i class="far fa-envelope"></i>
           </a>
+        </div>
+        <div className={classes["madewith"]}>
+          <p>
+            Made with react <i class="fab fa-react"></i>
+          </p>
         </div>
       </div>
     </Fragment>

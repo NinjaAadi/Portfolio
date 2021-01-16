@@ -42,7 +42,7 @@ const Secondback = () => {
 
         <div className={classes["head2"]}>
           <h1 data-aos="fade-up">
-            About Me <i class="fas fa-male"></i>
+            About Me
           </h1>
         </div>
         <div className={classes["container"]}>

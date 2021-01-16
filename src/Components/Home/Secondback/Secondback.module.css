@@ -5,7 +5,7 @@
   position: relative;
   width: 100%;
   height: auto;
-  background-color: #eff8ff;
+  background-color: #f5f4f4;
 }
 .about {
   margin-top: 0%;
@@ -35,11 +35,6 @@
   display: inline;
   color: #ff577f;
   font-size: 3rem;
-  text-shadow: 1px 0px 1px #cccccc, 0px 1px 1px #eeeeee, 2px 1px 1px #cccccc,
-    1px 2px 1px #eeeeee, 3px 2px 1px #cccccc, 2px 3px 1px #eeeeee,
-    4px 3px 1px #cccccc, 3px 4px 1px #eeeeee, 5px 4px 1px #cccccc,
-    4px 5px 1px #eeeeee, 6px 5px 1px #cccccc, 5px 6px 1px #eeeeee,
-    7px 6px 1px #cccccc;
 }
 .cont {
   background-color: #e7e7de;
@@ -53,7 +48,7 @@
   font-family: "Comfortaa", sans-serif;
   margin-top: 50px;
   font-size: 1.3rem;
-  color: #433d3c;
+  color: #6155a6;
 }
 .container {
   width: 95%;
@@ -68,13 +63,12 @@
 }
 .child {
   width: 25%;
-  height: 350px;
+  height: 340px;
   background-color: #a685e2;
   margin: auto;
   margin-top: 30px;
   margin-bottom: 20px;
   border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 .heading {
   height: auto;
