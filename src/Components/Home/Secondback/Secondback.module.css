@@ -172,6 +172,9 @@
   .name {
     font-size: 2.5rem;
   }
+  .child {
+    width: 78%;
+  }
 }
 @media only screen and (max-width: 380px) {
   .heading {
