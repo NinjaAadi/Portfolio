@@ -1,96 +1,63 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@240&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap");
 .body {
-  height: 100vh;
+  position: relative;
   width: 100%;
-  margin: 0px !important;
-  padding: 0px !important;
-  margin-top: 80px;
+  height: auto;
 }
 .about {
-  width: 100%;
-  text-align: center;
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 1.4rem;
-  text-transform: uppercase;
-  height: 100px;
-  color: #455d7a;
-}
-.flex {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  width: 100%;
-}
-.div1 {
-  width: 50%;
-  position: relative;
+  margin-top: 0%;
   height: auto;
-}
-.div2 {
-  width: 50%;
-  position: relative;
-  height: auto;
-}
-.label {
-  width: 100%;
-  height: 15%;
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-  color: #ff884b;
-}
-.para {
-  margin-top: 40px !important;
-  height: auto !important;
-  width: 80%;
-  margin: auto !important;
+  width: 60%;
   text-align: justify;
-  font-family: "Poppins", sans-serif;
-  letter-spacing: 1.5px;
-}
-.minlabel {
-  width: 80%;
   margin: auto;
-  height: auto;
-  font-family: "Poppins", sans-serif;
-  color: #455d7a;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 2px;
+  color: black;
+  padding: 20px;
+  font-size: 1.2rem;
 }
-.anc {
-  text-decoration: none;
-  color: #323643;
-}
-.follow {
-  padding-top: 20px;
-  height: auto;
-  width: 80%;
+.hi {
+  width: 85%;
   margin: auto;
-  display: flex;
-  justify-content: space-evenly;
+  text-align: center;
+  font-family: "IBM Plex Sans", sans-serif;
+  color: black;
+  font-weight: 800 !important;
+  font-size: 1.4rem;
 }
-.icon {
-  font-size: 2.5rem;
-  color: #323643;
-  transition: all 300ms ease-in;
-}
-.icon:hover {
-  transform: scale(1.1);
-  color: #f95959;
+.name {
+  display: inline;
+  color: #ff577f;
+  font-size: 3.5rem;
 }
 @media only screen and (max-width: 1500px) {
-  .body {
-    height: 70%;
+  .about {
+    font-size: 1rem;
   }
 }
-@media only screen and (max-width: 800px) {
-  .flex {
-    height: auto;
+@media only screen and (max-width: 700px) {
+  .about {
+    font-size: 0.8rem;
+    width: 80%;
   }
-  .div1 {
-    width: 100%;
+  .hi {
+    font-size: 1rem;
   }
-  .div2 {
-    margin-top: 10%;
-    width: 100%;
+  .name {
+    font-size: 3rem;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .about {
+    font-size: 0.7rem;
+    width: 80%;
+  }
+  .hi {
+    font-size: 0.9rem;
+  }
+  .name {
+    font-size: 2.5rem;
   }
 }

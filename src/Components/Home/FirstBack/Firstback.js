@@ -22,7 +22,7 @@ const Firstback = (props) => {
     <Fragment>
       <div className={classes["body"]}>
         <div className={classes["container"]}>
-          <animated.h1 className={classes["head1"]} style={st}>
+          <animated.h1 className={classes["head1"]} data-aos="fade-down">
             Full stack developer and designer
           </animated.h1>
           <div className={classes["head2"]}>
@@ -40,10 +40,14 @@ const Firstback = (props) => {
               }}
             />
           </div>
-          <div className={classes["image"]}>
-            <img  className={classes["img"]}src={down} alt="coder" />
-          </div>
         </div>
+      </div>
+      <div className={classes["image"]}>
+        <img
+          className={classes["img"]}
+          src={down}
+          alt="coder"
+        />
       </div>
     </Fragment>
   );

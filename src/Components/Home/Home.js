@@ -1,4 +1,3 @@
-
 import classes from "./home.module.css";
 import Firstback from "./FirstBack/Firstback";
 import Secondback from "./Secondback/Secondback";
