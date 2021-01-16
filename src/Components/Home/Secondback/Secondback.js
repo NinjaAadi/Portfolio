@@ -69,17 +69,25 @@ const Secondback = () => {
               </h1>
               <Carousel renderArrow={myArrow}>
                 <div className={classes["item"]}>
-                  B.TECH CSE (2019-2023)
+                  B.TECH CSE [2019-2023]
                   <br />
-                  (GPA:9.21)
+                  GPA:9.21
                 </div>
                 <div className={classes["item"]}>
-                  Class 12 (GPA:9.31)
+                  Sikkim Manipal Institute of Technology
+                </div>
+                <div className={classes["item"]}>
+                  Class 12
+                  <br />
+                  GPA:9.31
+                </div>
+                <div className={classes["item"]}>
+                  Class 10 <br />
+                  GPA:10
                   <br />
                 </div>
                 <div className={classes["item"]}>
-                  Class 10 (GPA:10)
-                  <br />
+                  Surendranath Centenary School
                 </div>
               </Carousel>
             </div>
@@ -91,7 +99,11 @@ const Secondback = () => {
                 <i class="fas fa-trophy" style={{ color: "#ffffff" }}></i>
               </h1>
               <Carousel renderArrow={myArrow}>
-                <div className={classes["item"]}>4* Codechef</div>
+                <div className={classes["item"]}>
+                  <p className={classes["p"]}>
+                    4 <i class="fas fa-star"></i> Codechef
+                  </p>
+                </div>
                 <div className={classes["item"]}>
                   ECE Department Hakathon Winner
                 </div>
