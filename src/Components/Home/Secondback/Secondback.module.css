@@ -86,13 +86,13 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-color: #a7c5eb;
+  background-color: #f6ecf0;
   border-radius: 2px;
-  color: #ffffff;
+  color: #000000;
   margin: 15px;
   font-size: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
   font-family: "Comfortaa", cursive;
   font-weight: 600 !important;
 }
