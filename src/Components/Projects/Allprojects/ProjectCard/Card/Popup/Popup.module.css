@@ -1,206 +1,123 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Goldman&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
 .popup {
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 90vw;
-  height: 96vh;
-  background: whitesmoke;
+  width: 70vw;
+  height: auto;
+  background: #f8dc81;
   opacity: 1;
   z-index: 21;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   font-family: "Poppins", cursive;
-  outline:12px solid #11698e;
-}
-.project {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  opacity: 1 !important;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 .cross {
   position: absolute;
-  top: -10px;
-  right: 10px;
-  color: white;
-  z-index: 21;
-  cursor: pointer;
-  font-size: 25px;
   height: auto;
+  right: 10px;
+  top: -20px;
+  cursor: pointer;
+  color: #000000;
 }
 .name {
   width: 100%;
   margin: auto;
   height: auto;
   text-align: center;
-  color: #ffffff;
   text-transform: uppercase;
-  font-size: 1.2vw;
-  font-family: "Comfortaa", cursive;
-  background-color: #11698e;
-  padding: 1px;
-}
-@keyframes git {
-  0% {
-    transform: scale(1);
-  }
-
-  50% {
-    transform: scale(1.1);
-  }
-
-  100% {
-    transform: scale(1);
-  }
+  font-size: 1rem;
+  font-family: "Merriweather", serif;
+  padding-top: 2rem;
+  color: #374045;
 }
 .heading {
+  height: auto;
   width: 70%;
-  height: auto;
-  text-align: center;
-  font-size: 1.1vw;
-  opacity: 0.8;
   margin: auto;
-  margin-top: 3%;
-  margin-bottom: 2%;
-  color: #0f3057;
+  text-align: center;
+  padding-bottom: 1.5rem;
+  color: #2c061f;
+}
+.arrow {
+  height: 50px;
+  margin: auto 5px auto 5px;
+  background: none;
+  color: black;
+  border: none;
   font-family: "Comfortaa", cursive;
-  letter-spacing: 1px;
-}
-.github {
-  width: 100%;
-  text-align: center;
-  height: auto;
-  font-size: 3rem;
-  margin-top: 20px;
-  color: #0f3057 !important;
-  cursor: pointer;
-  animation: git 2s infinite;
-}
-.carousel {
-  width: 90%;
-  position: relative;
-  margin: auto;
-  height: auto;
+  outline: none;
 }
 .item {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 10vw;
   width: 100%;
-  background-color: #16c79a;
+  background-color: #ff7b54;
   border-radius: 2px;
   color: #ffffff;
-  margin: 15px;
-  font-size: 17px;
+  margin: 5px;
+  font-size: 18px;
+  padding-left: 12px;
+  padding-right: 12px;
   font-family: "Comfortaa", cursive;
-  font-weight: 400 !important;
+  font-weight: 600 !important;
+  height: 80%;
+}
+.carousel {
+  height: auto;
 }
 .text {
   height: auto;
-  margin: auto;
-  width: 80%;
-  text-align: center;
 }
 .skill {
-  height: auto;
-  width: 80%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  width: 50%;
+  white-space: wrap;
   margin: auto;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
   position: relative;
-  margin-top: 6%;
+  padding-bottom: 2rem;
+  flex-wrap: wrap;
 }
 .icon {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   background-size: contain;
 }
-@media only screen and (max-width: 900px) {
-  .item {
-    height: 12vw;
-  }
-  .name {
-    font-size: 2vw;
-  }
-  .heading {
-    font-size: 1.5vw;
-  }
-}
-@media only screen and (max-width: 750px) {
-  .item {
-    height: 12vw;
-  }
-  .name {
-    font-size: 1.35rem;
-  }
-  .heading {
-    font-size: 0.7rem;
-  }
-  .skill {
-    margin-top: 12%;
-  }
-  .icon {
-    width: 40px;
-    height: 40px;
-  }
-}
-@media only screen and (max-width: 750px) {
-  .skill {
-    margin-top: 16%;
-  }
-  .item {
-    font-size: 14px;
-  }
-}
-@media only screen and (max-width: 650px) {
-  .name {
-    font-size: 1.1rem;
-  }
-}
-@media only screen and (max-width: 550px) {
-  .name {
-    font-size: 1.1rem;
-  }
-  .skill {
-    margin-top: 10%;
-  }
-  .icon {
-    width: 50px;
-    height: 50px;
-  }
+@media only screen and (max-width: 1500px) {
   .popup {
-    height: 85vh;
+    width: 95vw;
   }
 }
-@media only screen and (max-width: 450px) {
-  .name {
-    font-size: 0.9rem;
-  }
+@media only screen and (max-width: 800px) {
   .heading {
     font-size: 0.7rem;
   }
+}
+@media only screen and (max-width: 500px) {
   .skill {
-    margin-top: 17%;
+    width: 80%;
+  }
+  .item {
+    font-size: 15px;
   }
 }
 @media only screen and (max-width: 400px) {
-  .name {
-    font-size: 0.8rem;
-  }
   .heading {
     font-size: 0.6rem;
   }
+  .name {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .skill {
+    width: 90%;
+  }
   .item {
-    height: 28vw;
+    font-size: 12px;
   }
 }

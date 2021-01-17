@@ -10,7 +10,12 @@ const Project = () => {
   useEffect(() => {
     Aos.init({ duration: 1000, enable: "mobile" });
   }, []);
-
+  useEffect(() => {
+    const scroll = () => {
+      window.scrollTo(0, 0);
+    };
+    scroll();
+  }, []);
   return (
     <Fragment>
       <div className={classes["background"]}>
@@ -24,7 +29,6 @@ const Project = () => {
       </div>
       <Carousel />
       <br />
-      <div className={classes["hr"]}></div>
       <Allprojects />
     </Fragment>
   );

@@ -1,0 +1,38 @@
+.rec-carousel-wrapper {
+  position: relative;
+  height: 200px !important;
+  width: 80%;
+  justify-content: center;
+}
+.rec .rec-carousel {
+  height: 200 !important;
+  width: 80%;
+  justify-content: center;
+}
+.rec .rec-pagination {
+  display: none;
+}
+@media only screen and (max-width:850px){
+  .rec-carousel-wrapper {
+  height: 150px !important;
+}
+.rec .rec-carousel {
+  height: 150px !important;
+}
+}
+@media only screen and (max-width:600px){
+  .rec-carousel-wrapper {
+  height: 110px !important;
+}
+.rec .rec-carousel {
+  height: 110px !important;
+}
+}
+@media only screen and (max-width:400px){
+  .rec-carousel-wrapper {
+  height: 80px !important;
+}
+.rec .rec-carousel {
+  height: 80px !important;
+}
+}

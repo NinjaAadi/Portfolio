@@ -1,7 +1,6 @@
 import classes from "./Popup.module.css";
 import { connect } from "react-redux";
 import PropTypes from "prop-types";
-import Carousel from "react-elastic-carousel";
 import "./style.css";
 import React from "../../../../../../assets/React.svg";
 import Node from "../../../../../../assets/Node.svg";
@@ -14,6 +13,7 @@ import CSS from "../../../../../../assets/CSS.svg";
 import Javascript from "../../../../../../assets/Javascript.svg";
 import MySQL from "../../../../../../assets/MySQL.svg";
 import Redux from "../../../../../../assets/Redux.svg";
+import Carousel, { consts } from "react-elastic-carousel";
 
 const Popup = (props) => {
   const breakPoints = [
@@ -35,31 +35,38 @@ const Popup = (props) => {
     MySQL: MySQL,
     Redux: Redux,
   };
+  function myArrow({ type, onClick, isEdge }) {
+    const pointer =
+      type === consts.PREV ? (
+        <i class="fas fa-chevron-left"></i>
+      ) : (
+        <i class="fas fa-chevron-right"></i>
+      );
+    return (
+      <button className={classes["arrow"]} onClick={onClick} disabled={isEdge}>
+        {pointer}
+      </button>
+    );
+  }
   const project = props.project.Project;
   return (
     <div className={classes["popup"]}>
       <div className={classes["project"]}>
         <h1 onClick={props.click} className={classes["cross"]}>
-          <i class="far fa-times-circle"></i>{" "}
+          x{" "}
         </h1>
         <div className={classes["name"]}>
           <h1>{project.Name}</h1>
-        </div>
-        <div className={classes["github"]}>
-          <a
-            style={{ textDecoration: "none!important", color: "#0f3057" }}
-            href={project.Github}
-            target="_blank"
-            rel="noreferrer"
-          >
-            <i class="fab fa-github"></i>{" "}
-          </a>
         </div>
         <div className={classes["heading"]}>
           <h2>{project.Description}</h2>
         </div>
         <div className={classes["carousel"]}>
-          <Carousel itemsToShow={3} breakPoints={breakPoints}>
+          <Carousel
+            itemsToShow={3}
+            breakPoints={breakPoints}
+            renderArrow={myArrow}
+          >
             {project.Features.map((item) => {
               return (
                 <div className={classes["item"]}>

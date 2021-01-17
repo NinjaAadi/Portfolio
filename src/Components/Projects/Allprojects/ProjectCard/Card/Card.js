@@ -28,12 +28,8 @@ const Card = (props) => {
         <button className={classes["button"]} onClick={(e) => toggler()}>
           View
         </button>
-        <div
-          style={{ backgroundImage: `url(${project})` }}
-          className={classes["probulb"]}
-        ></div>
         <div className={classes["code"]}>
-          <i class="fas fa-code-branch"></i>
+          <i class="fas fa-laptop-code"></i>
         </div>
       </div>
       {toggle === true ? <Popup click={toggler} /> : <Fragment></Fragment>}

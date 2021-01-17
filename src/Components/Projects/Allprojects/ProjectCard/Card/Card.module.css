@@ -13,20 +13,12 @@
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
     rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
   border-radius: 5px;
-  background-color: #19456b;
+  background-color: #6155a6;
   transition: all 300ms linear;
   overflow: hidden;
-  animation: time 700ms;
-  transition: all 0.46s ease-in !important;
+  transition: all 0.25s ease-in !important;
 }
-@keyframes time {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
+
 .head {
   position: absolute;
   width: 100%;
@@ -50,8 +42,8 @@
   height: 40px;
   transform: translate(-50%, -50%);
   color: yellow;
-  background-color: #11698e;
-  border: double 5px #f95959;
+  background-color: #a685e2;
+  border: solid 5px #ffffff;
   border-radius: 30px;
   display: none;
   transition: all 0.35s ease !important;
@@ -59,8 +51,8 @@
   font-family: "Comfortaa", cursive !important;
 }
 .button:hover {
-  background-color: #f95959;
-  color: white;
+  background-color: #ffabe1;
+  color: black;
 }
 .card:hover .button {
   display: block;
@@ -69,27 +61,19 @@
   display: none;
 }
 .card:hover {
-  background-color: #11698e;
+  background-color: #a685e2;
 }
 .card:hover .head {
   color: white;
   opacity: 1;
 }
-.probulb {
-  position: absolute;
-  z-index: 10;
-  height: 100px;
-  background-repeat: no-repeat;
-  top: 70%;
-  right: 8%;
-  width: 50px;
-}
+
 .code {
   position: absolute;
   top: 100%;
   left: 50%;
   font-size: 2.5rem;
-  color: #facf5a;
+  color: whitesmoke;
   transform: translate(-50%, -50%);
 }
 @media only screen and (max-width: 500px) {

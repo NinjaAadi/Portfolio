@@ -15,7 +15,7 @@ export default function Carousel() {
         </h1>
         <h3 className={classes["text"]}>Fast</h3>
       </div>
-      <div data-aos="fade-up" className={classes["card"]}>
+      <div data-aos="fade-down" className={classes["card"]}>
         <h1 className={classes["icon"]}>
           <i class="fas fa-mobile-alt"></i>{" "}
         </h1>
@@ -27,7 +27,7 @@ export default function Carousel() {
         </h1>
         <h3 className={classes["text"]}>User-friendly</h3>
       </div>
-      <div data-aos="fade-up" className={classes["card"]}>
+      <div data-aos="fade-down" className={classes["card"]}>
         <h1 className={classes["icon"]}>
           <i class="far fa-folder"></i>{" "}
         </h1>
