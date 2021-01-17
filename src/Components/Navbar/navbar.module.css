@@ -7,7 +7,7 @@
   height: 80px;
   display: flex;
   justify-content: space-around;
-  background-color: #0f3057;
+  background-color: #1a508b;
   transition: all 200ms ease;
   font-weight: 300;
   z-index: 20;
@@ -59,18 +59,18 @@
   margin-top: 10px;
   width: 80%;
   height: 3px;
-  background-color: #facf5a;
+  background-color: #ffffff;
 }
 .l2 {
   width: 80%;
   height: 3px;
-  background-color: #facf5a;
+  background-color: #ffffff;
   margin-top: 7px;
 }
 .l3 {
   width: 80%;
   height: 3px;
-  background-color: #facf5a;
+  background-color: #ffffff;
   margin-top: 7px;
 }
 .l4 {
@@ -108,7 +108,7 @@
 }
 @media only screen and (max-width: 1000px) {
   .navbar {
-    background-color: #0f3057;
+    background-color: #1a508b;
   }
   .button {
     display: inline-block;
@@ -122,7 +122,7 @@
     justify-content: center;
     text-align: center;
     display: none;
-    background: #0f3057;
+    background: #1a508b;
   }
   .anc {
     margin-top: 50px;

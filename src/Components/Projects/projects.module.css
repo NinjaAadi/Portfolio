@@ -3,7 +3,7 @@
   margin-top: 80px;
   height: 300px;
   position: relative;
-  background-image: linear-gradient(#0f3057, #00587a);
+  background-image: linear-gradient(#1a508b, #00587a);
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .head {
@@ -49,4 +49,10 @@
   background-color: #e8eae6;
   margin-top: 20px;
   margin: auto;
+}
+
+@media only screen and (max-width:500px){
+  .head{
+    font-size: 0.8rem;
+  }
 }

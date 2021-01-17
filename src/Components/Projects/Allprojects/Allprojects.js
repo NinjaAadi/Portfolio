@@ -4,14 +4,14 @@ import ProjectCard from "./ProjectCard/ProjectCard";
 
 const Allprojects = () => {
   const [styles, setstyles] = useState({
-    All: { backgroundColor: "#6930c3", color: "white", borderRadius: "5px" },
+    All: { backgroundColor: "#a685e2", color: "white", borderRadius: "5px" },
     React: {},
     Node: {},
     PHP: {},
   });
   const [skill, setskill] = useState("All");
   const mystyle = {
-    backgroundColor: "#6930c3",
+    backgroundColor: "#a685e2",
     color: "white",
     borderRadius: "5px",
   };

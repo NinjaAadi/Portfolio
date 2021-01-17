@@ -3,9 +3,10 @@
 .back {
   width: 100%;
   height: auto;
-  background-color: #6155a6;
+  background-color: #cd5d7d;
   padding-top: 1rem;
   padding-bottom: 5rem;
+  display: block;
 }
 .head2 {
   width: 40%;

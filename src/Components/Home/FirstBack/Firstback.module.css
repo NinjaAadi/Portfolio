@@ -3,7 +3,7 @@
 .body {
   position: relative;
   height: auto;
-  background-image: linear-gradient(#0f3057, #00587a);
+  background-image: linear-gradient(#1a508b, #00587a);
   width: 100%;
   text-align: center;
   padding-bottom: 5rem;
@@ -38,7 +38,7 @@
   justify-content: center;
   display: flex;
   display: block !important;
-  background-color: #e7e7de;
+  background-color: #fcf8e8;
 }
 .img {
   width: 250px;

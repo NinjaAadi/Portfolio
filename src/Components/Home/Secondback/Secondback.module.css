@@ -6,6 +6,7 @@
   width: 100%;
   height: auto;
   background-color: #ffffff;
+  margin-bottom: 4rem;
 }
 .about {
   margin-top: 0%;
@@ -16,7 +17,7 @@
   font-family: "Exo 2", sans-serif;
   margin-top: 0%;
   letter-spacing: 1.2px;
-  color: black;
+  color: rgb(66, 64, 64);
   border-radius: 20px;
   padding: 20px;
   font-size: 1.2rem;
@@ -37,7 +38,7 @@
   font-size: 3rem;
 }
 .cont {
-  background-color: #e7e7de;
+  background-color: #fcf8e8;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -48,7 +49,7 @@
   font-family: "Comfortaa", sans-serif;
   margin-top: 50px;
   font-size: 1.3rem;
-  color: #6155a6;
+  color: #00303f;
 }
 .container {
   width: 95%;
@@ -85,7 +86,8 @@
   width: 100%;
   background-color: #ffabe1;
   border-radius: 2px;
-  color: #ffffff;
+  color: #f5f5f5;
+  outline: none;
   margin: 5px;
   font-size: 18px;
   padding-left: 12px;

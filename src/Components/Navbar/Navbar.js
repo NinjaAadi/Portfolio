@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import classes from "./navbar.module.css";
 import { Link } from "react-router-dom";
 import resume from "../../assets/resume_aadityapal.pdf";
-import logo1 from "../../assets/AP5.png";
+import logo1 from "../../assets/logo.png";
 const Navbar = () => {
   useEffect(() => {
     window.addEventListener("scroll", (e) => {
@@ -10,9 +10,9 @@ const Navbar = () => {
       const nav = document.getElementById("nav");
       if (window.innerWidth > 1000) {
         if (height > 20) {
-          nav.style.backgroundColor = "#00587a";
+          nav.style.backgroundColor = "#1a508b";
         } else {
-          nav.style.backgroundColor = "#0f3057";
+          nav.style.backgroundColor = "#1a508b";
         }
       }
     });

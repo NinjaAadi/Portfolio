@@ -2,7 +2,6 @@ import classes from "./home.module.css";
 import { useEffect } from "react";
 import Firstback from "./FirstBack/Firstback";
 import Secondback from "./Secondback/Secondback";
-import Thirdback from "./Thirdback/Thirdback";
 
 const Home = () => {
   useEffect(() => {
@@ -15,7 +14,6 @@ const Home = () => {
     <div className={classes["background"]}>
       <Firstback />
       <Secondback />
-      <Thirdback />
     </div>
   );
 };
