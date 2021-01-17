@@ -2,7 +2,7 @@ import React, { Fragment, useEffect } from "react";
 import classes from "./Secondback.module.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import "./style.css";
+import "./style.scoped.css";
 import Carousel, { consts } from "react-elastic-carousel";
 const Secondback = () => {
   useEffect(() => {
