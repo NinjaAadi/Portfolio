@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import classes from "./navbar.module.css";
 import { Link } from "react-router-dom";
 import resume from "../../assets/resume_aadityapal.pdf";
-import logo1 from "../../assets/logo.png";
+import logo1 from "../../assets/AP5.png";
 const Navbar = () => {
   useEffect(() => {
     window.addEventListener("scroll", (e) => {
