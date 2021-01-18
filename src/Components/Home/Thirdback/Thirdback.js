@@ -15,7 +15,7 @@ const Thirdback = () => {
           <img className={classes["image"]} src={logo1} alt="logo" />
         </div>
         <div className={classes["head2"]}>
-          <h1 data-aos="fade-up">
+          <h1>
             Living, learning, & leveling up
             <br /> one day at a time.
           </h1>

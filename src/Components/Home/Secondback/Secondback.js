@@ -32,18 +32,16 @@ const Secondback = () => {
             </h1>
           </div>
           <div className={classes["about"]} data-aos="fade-down">
-            <h2>
-              I am currently 20 years old. I am a full stack web developer.I
-              am also a  Competitive Coder.I am currently a student. My
-              hobbies include novels, driving, music and obviously programming.
+            <h2 className={classes["abouttxt"]}>
+              I am currently 20 years old. I am a full stack web developer.I am
+              also a Competitive Coder.I am currently a student. My hobbies
+              include novels, driving, music and obviously programming.
             </h2>
           </div>
         </div>
 
         <div className={classes["head2"]}>
-          <h1 data-aos="fade-up">
-            About Me
-          </h1>
+          <h1 data-aos="fade-up">About Me</h1>
         </div>
         <div className={classes["container"]}>
           <div className={classes["child"]} data-aos="fade-down">

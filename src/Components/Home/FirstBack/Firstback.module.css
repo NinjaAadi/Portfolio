@@ -3,7 +3,7 @@
 .body {
   position: relative;
   height: auto;
-  background-image: linear-gradient(#1a508b, #00587a);
+  background-image: linear-gradient(#3457d5, #007fff);
   width: 100%;
   text-align: center;
   padding-bottom: 5rem;
@@ -24,12 +24,10 @@
   position: relative;
   height: auto;
   font-size: 2rem;
-  color: #f8dc81;
+  color: #E1EBEE;
   padding-top: 3rem;
   font-family: "Roboto", sans-serif;
   padding-bottom: 30px;
-  text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
-    0px -5px 35px rgba(255, 255, 255, 0.3);
 }
 .image {
   position: relative;
@@ -38,7 +36,7 @@
   justify-content: center;
   display: flex;
   display: block !important;
-  background-color: #fcf8e8;
+  background-color: #ffffff;
 }
 .img {
   width: 250px;

@@ -13,7 +13,7 @@
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
     rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
   border-radius: 5px;
-  background-color: #6155a6;
+  background-color: #318ce7;
   transition: all 300ms linear;
   overflow: hidden;
   transition: all 0.25s ease-in !important;
@@ -61,7 +61,7 @@
   display: none;
 }
 .card:hover {
-  background-color: #a685e2;
+  background-color: #034694;
 }
 .card:hover .head {
   color: white;

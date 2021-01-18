@@ -1,24 +1,25 @@
-@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 .popup {
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 70vw;
+  width: 60vw;
   height: auto;
-  background: #fff5c0;
+  background: #ffffff;
   opacity: 1;
   z-index: 21;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
   font-family: "Poppins", cursive;
 }
 .cross {
   position: absolute;
   height: auto;
-  right: 10px;
-  top: -20px;
+  right: 15px;
+  top: -10px;
   cursor: pointer;
-  color: #000000;
+  color: #ffffff;
+  font-size: 1.8rem;
 }
 .name {
   width: 100%;
@@ -27,9 +28,11 @@
   text-align: center;
   text-transform: uppercase;
   font-size: 1rem;
-  font-family: "Merriweather", serif;
-  padding-top: 2rem;
-  color: #374045;
+  font-family: "Sans serif", serif;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: white;
+  background-color: #1560bd;
 }
 .heading {
   height: auto;
@@ -37,7 +40,8 @@
   margin: auto;
   text-align: center;
   padding-bottom: 1.5rem;
-  color: #2c061f;
+  color: black;
+  font-family: "Open Sans", sans-serif;
 }
 .arrow {
   height: 50px;
@@ -53,7 +57,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-color: #ff7b54;
+  background-color: #1877f2;
   border-radius: 2px;
   color: #ffffff;
   margin: 5px;
@@ -81,15 +85,30 @@
   position: relative;
   padding-bottom: 2rem;
   flex-wrap: wrap;
+  padding-top: 1rem;
 }
 .icon {
   width: 50px;
   height: 50px;
   background-size: contain;
 }
+.github {
+  height: auto;
+  width: 100%;
+  text-align: center;
+}
+.anc {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Comfortaa", cursive;
+  font-size: 1rem;
+  background-color: #ff7b54;
+  padding: 13px;
+  border-radius: 5px;
+}
 @media only screen and (max-width: 1500px) {
   .popup {
-    width: 95vw;
+    width: 80vw;
   }
 }
 @media only screen and (max-width: 800px) {
@@ -103,6 +122,9 @@
   }
   .item {
     font-size: 15px;
+  }
+  .popup {
+    width: 90vw;
   }
 }
 @media only screen and (max-width: 400px) {

@@ -11,17 +11,21 @@
 .about {
   margin-top: 0%;
   height: auto;
-  width: 35%;
+  width: 100%;
   text-align: center;
   margin: auto;
   font-family: "Exo 2", sans-serif;
   margin-top: 0%;
   letter-spacing: 1.2px;
-  color: rgb(66, 64, 64);
-  border-radius: 20px;
-  padding: 20px;
+  color: #000000;
+  padding-top: 20px;
+  padding-bottom: 20px;
   font-size: 1.2rem;
   font-weight: 200 !important;
+}
+.abouttxt {
+  width: 50%;
+  margin: auto;
 }
 .hi {
   width: 85%;
@@ -34,11 +38,11 @@
 }
 .name {
   display: inline;
-  color: #ff577f;
+  color: #1877f2;
   font-size: 3rem;
 }
 .cont {
-  background-color: #fcf8e8;
+  background-color: #ffffff;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -49,7 +53,7 @@
   font-family: "Comfortaa", sans-serif;
   margin-top: 50px;
   font-size: 1.3rem;
-  color: #00303f;
+  color: #00428c;
 }
 .container {
   width: 95%;
@@ -65,7 +69,7 @@
 .child {
   width: 25%;
   height: 340px;
-  background-color: #a685e2;
+  background-color: #007fff;
   margin: auto;
   margin-top: 30px;
   margin-bottom: 20px;
@@ -84,7 +88,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-color: #ffabe1;
+  background-color: #00bfff;
   border-radius: 2px;
   color: #f5f5f5;
   outline: none;
@@ -110,7 +114,7 @@
 @media only screen and (max-width: 1500px) {
   .about {
     font-size: 0.8rem;
-    width: 65%;
+    width: 100%;
   }
   .name {
     font-size: 3rem;

@@ -53,7 +53,7 @@ const Popup = (props) => {
     <div className={classes["popup"]}>
       <div className={classes["project"]}>
         <h1 onClick={props.click} className={classes["cross"]}>
-          x{" "}
+          <i class="fas fa-times"></i>{" "}
         </h1>
         <div className={classes["name"]}>
           <h1>{project.Name}</h1>
@@ -75,6 +75,16 @@ const Popup = (props) => {
               );
             })}
           </Carousel>
+        </div>
+        <div className={classes["github"]}>
+          <a
+            className={classes["anc"]}
+            href={project.Github}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Code
+          </a>
         </div>
         <div className={classes["skill"]}>
           {project.Tech.map((skill) => {

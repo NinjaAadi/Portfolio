@@ -8,12 +8,10 @@ const Navbar = () => {
     window.addEventListener("scroll", (e) => {
       let height = window.scrollY;
       const nav = document.getElementById("nav");
-      if (window.innerWidth > 1000) {
-        if (height > 20) {
-          nav.style.backgroundColor = "#1a508b";
-        } else {
-          nav.style.backgroundColor = "#1a508b";
-        }
+      if (height > 20) {
+        nav.style.backgroundColor = "#007FFF";
+      } else {
+        nav.style.backgroundColor = "#3457D5";
       }
     });
   }, []);
