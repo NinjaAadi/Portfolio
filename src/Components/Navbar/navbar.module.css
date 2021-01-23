@@ -16,7 +16,7 @@
 .name {
   position: absolute;
   left: 20px;
-  color: #facf5a;
+  color: #ffffff;
   top: 10px;
 }
 .btns {
@@ -76,7 +76,7 @@
 .l4 {
   width: 80%;
   height: 3px;
-  background-color: #facf5a;
+  background-color: #ffffff;
   margin-top: 6px;
   position: absolute;
   transform: rotate(45deg);
@@ -84,7 +84,7 @@
 .l5 {
   width: 80%;
   height: 3px;
-  background-color: #facf5a;
+  background-color: #ffffff;
   margin-top: 6px;
   position: absolute;
   transform: rotate(-45deg);
@@ -95,7 +95,7 @@
 .toggle {
   display: inline-block;
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1050px) {
   .btns {
     position: absolute;
     width: 700px;
@@ -106,9 +106,9 @@
     display: inline-block !important;
   }
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1050px) {
   .navbar {
-    background-color: #1a508b;
+    background-color: #3457D5;
   }
   .button {
     display: inline-block;
@@ -122,7 +122,7 @@
     justify-content: center;
     text-align: center;
     display: none;
-    background: #1a508b;
+    background: #3457D5;
   }
   .anc {
     margin-top: 50px;

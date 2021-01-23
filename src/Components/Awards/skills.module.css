@@ -1,55 +1,83 @@
-@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
-
 .background {
-  position: absolute;
-  display: inline-block;
+  height: auto;
+  margin-top: 80px;
+}
+.skill {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.icon {
+  height: 70px;
+  width: 70px;
+  background-size: contain;
+  margin: 3%;
+  transition: all 300ms ease;
+}
+.icon:hover {
+  transform: scale(1.1);
+}
+
+.back {
+  margin-top: 80px;
+  height: 300px;
+  position: relative;
+  background-image: linear-gradient(#3457d5, #007fff);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.head {
   width: 100%;
-  height: 150%;
-  background-color: #222831;
-  margin-top: 90px;
-}
-.header {
-  font-family: "Questrial", sans-serif !important;
-  font-size: 6rem;
-  font-weight: 100;
+  height: auto;
+  text-align: center;
+  color: whitesmoke;
+  padding-top: 50px;
+  font-family: "Comfortaa", sans-serif;
   letter-spacing: 2px;
-  margin-left: 60px;
-  color: #f35626;
-  background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-animation: hue 10s infinite linear;
+  text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
+    0px -5px 35px rgba(255, 255, 255, 0.3);
+  font-size: 1.2rem;
 }
-@keyframes hue {
-  from {
-    -webkit-filter: hue-rotate(0deg);
-  }
-  to {
-    -webkit-filter: hue-rotate(-360deg);
-  }
-}
-.college {
+.skillsi {
+  width: 200px;
   position: absolute;
-  width: 500px;
-  height: 500px;
-  right: 5%;
-  top:0px;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  z-index: 18;
+  cursor: pointer;
 }
-@media only screen and (max-width:1300px){
-  .college{
-    width: 300px;
-    height:300px;
-    top:180px;
+.percent {
+  width: 60%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+}
+.measure {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-family: "Comfortaa", sans-serif;
+  font-size: 2rem;
+  color: #000000;
+}
+@media only screen and (max-width:500px){
+  .head{
+    font-size: 0.9rem;
   }
-}
-@media only screen and (max-width:900px){
-    .college{
-    display: none;
+  .measure{
+    font-size: 1.5rem;
   }
-}
-@media only screen and (max-width:400px){
-    .header{
-      margin-left: 30px;
-      font-size: 3.5rem;
-    }
 }

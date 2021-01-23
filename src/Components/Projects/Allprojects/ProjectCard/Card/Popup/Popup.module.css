@@ -9,7 +9,7 @@
   background: #ffffff;
   opacity: 1;
   z-index: 21;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  box-shadow: rgba(77,77,255,0.2) 0px 25px 50px -12px;
   font-family: "Poppins", cursive;
 }
 .cross {
@@ -32,7 +32,7 @@
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   color: white;
-  background-color: #1560bd;
+  background-color: #4D4DFF;
 }
 .heading {
   height: auto;
