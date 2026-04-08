@@ -24,8 +24,8 @@ export function ExperienceSection() {
             {experiences.map((exp, index) => (
               <motion.div
                 key={exp.id}
-                initial={{ opacity: 0, x: -20 }}
-                whileInView={{ opacity: 1, x: 0 }}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 className="relative sm:pl-16"
@@ -106,8 +106,8 @@ export function ExperienceSection() {
                     {exp.impact.map((point, i) => (
                       <motion.div
                         key={i}
-                        initial={{ opacity: 0, x: 10 }}
-                        whileInView={{ opacity: 1, x: 0 }}
+                        initial={{ opacity: 0, y: 10 }}
+                        whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ delay: index * 0.05 + i * 0.04 }}
                         className="flex items-start gap-2.5 text-sm text-c-secondary"
