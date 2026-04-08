@@ -92,7 +92,7 @@ export function AboutSection() {
                 <div className="w-3 h-3 rounded-full bg-green-500/70" />
                 <span className="ml-2 text-xs text-c-faint font-mono">profile.go</span>
               </div>
-              <div className="p-5 font-mono text-sm space-y-1">
+              <div className="p-5 font-mono text-sm space-y-1 overflow-x-auto">
                 <p className="text-c-faint">// About me</p>
                 <p>
                   <span className="text-cyan-400">type</span>

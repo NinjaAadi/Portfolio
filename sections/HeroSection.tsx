@@ -115,7 +115,7 @@ export function HeroSection() {
           initial="initial"
           animate="animate"
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="inline-flex items-center gap-2.5 px-4 py-2 rounded-full bg-violet-500/10 border border-violet-500/25 text-violet-300 text-sm font-mono mb-8"
+          className="inline-flex flex-wrap justify-center items-center gap-x-2.5 gap-y-1.5 px-4 py-2 rounded-full bg-violet-500/10 border border-violet-500/25 text-violet-300 text-xs sm:text-sm font-mono mb-8 max-w-full"
         >
           <span className="flex items-center gap-1.5">
             <MapPin className="w-3.5 h-3.5 text-violet-400" />

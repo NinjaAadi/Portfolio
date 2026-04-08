@@ -260,7 +260,7 @@ export function SystemDesignSection() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
             transition={{ duration: 0.3 }}
-            className="p-6 bg-surface-card border border-c-subtle rounded-2xl"
+            className="p-6 bg-surface-card border border-c-subtle rounded-2xl overflow-hidden"
           >
             <div className="mb-5">
               <h3 className="text-base font-semibold text-c-primary mb-1">
