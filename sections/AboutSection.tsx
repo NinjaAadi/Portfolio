@@ -21,6 +21,7 @@ const bookCoverUrl: Record<string, string> = {
   "Atomic Habits":                         "https://covers.openlibrary.org/b/isbn/9780735211292-L.jpg",
   "Clean Code":                            "https://covers.openlibrary.org/b/isbn/9780132350884-L.jpg",
   "The Millionaire Next Door":             "https://covers.openlibrary.org/b/isbn/9780671015206-L.jpg",
+  "Think and Grow Rich":                   "https://covers.openlibrary.org/b/isbn/9781585424337-L.jpg",
 };
 
 function BookCard({ book, index }: { book: typeof profile.books[0]; index: number }) {

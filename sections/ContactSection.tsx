@@ -18,7 +18,7 @@ const iconMap: Record<string, React.ElementType> = {
 export function ContactSection() {
   return (
     <SectionWrapper id="contact" className="py-28 px-6 bg-surface-1">
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-4xl mx-auto overflow-hidden">
         <SectionHeader
           badge="// contact.ts"
           title="Let's Connect"
@@ -129,7 +129,7 @@ export function ContactSection() {
           transition={{ delay: 0.3 }}
           className="mt-16 pt-8 border-t border-c-subtle text-center"
         >
-          <p className="text-xs text-c-veryfaint font-mono">
+          <p className="text-xs text-c-veryfaint font-mono break-words">
             Built with Next.js · React Three Fiber · Framer Motion · TypeScript
           </p>
           <p className="text-xs text-c-ghost font-mono mt-1">

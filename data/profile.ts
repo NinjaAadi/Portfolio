@@ -87,6 +87,12 @@ export const profile: Profile = {
       category: "finance",
       gist: "Real wealth is quiet. Most millionaires live below their means — a counterintuitive but grounding lesson about building long-term wealth.",
     },
+    {
+      title: "Think and Grow Rich",
+      author: "Napoleon Hill",
+      category: "business",
+      gist: "The mind is the starting point of all success. Hill distills lessons from hundreds of successful people into a repeatable framework for achievement.",
+    },
   ],
   hobbies: [
     {
