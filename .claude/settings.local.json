@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import json,sys; p=json.load\\(sys.stdin\\); print\\(json.dumps\\(p.get\\('scripts', {}\\), indent=2\\)\\)\")",
+      "Bash(python3 -c \"import json,sys; p=json.load\\(sys.stdin\\); print\\(p.get\\('scripts', {}\\)\\)\")",
+      "Bash(cat /Users/aadityapal/Documents/BlogReader/frontend/vite.config.*)",
+      "Bash(npm install:*)",
+      "Bash(node -e \"const p = require\\('@react-three/postprocessing'\\); console.log\\(Object.keys\\(p\\).filter\\(k => k.includes\\('Chrom'\\) || k.includes\\('Bloom'\\)\\)\\)\")",
+      "Bash(npm run:*)",
+      "Bash(npx tsc:*)",
+      "Bash(ls /Users/aadityapal/Documents/portfolio/next.config*)",
+      "Bash(git init:*)",
+      "Bash(git remote:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}

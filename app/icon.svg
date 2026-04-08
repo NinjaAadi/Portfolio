@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"   stop-color="#8b5cf6"/>
+      <stop offset="50%"  stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+  </defs>
+  <!-- Hexagonal background -->
+  <polygon points="16,1 29,8.5 29,23.5 16,31 3,23.5 3,8.5" fill="url(#g)" opacity="0.15"/>
+  <polygon points="16,1 29,8.5 29,23.5 16,31 3,23.5 3,8.5" fill="none" stroke="url(#g)" stroke-width="1.5"/>
+  <!-- A -->
+  <path d="M7 23 L12 9 h2 L19 23 h-2.5 L15 18 H9 L7.5 23 Z M9.8 16 h4.4 L12 11 Z" fill="url(#g)"/>
+  <!-- P -->
+  <path d="M20 23 V9 h4.5 c2.5 0 4 1.5 4 4.5 s-1.5 4.5-4 4.5 H22 V23 Z M22 16 h2.2 c1.3 0 2-0.8 2-2.5 S25.5 11 24.2 11 H22 Z" fill="url(#g)"/>
+</svg>
