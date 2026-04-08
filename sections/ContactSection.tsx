@@ -28,8 +28,8 @@ export function ContactSection() {
         <div className="grid md:grid-cols-2 gap-8">
           {/* Left: Message card */}
           <motion.div
-            initial={{ opacity: 0, x: -20 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             className="p-8 bg-surface-card border border-c-subtle rounded-2xl relative overflow-hidden"
           >
@@ -78,8 +78,8 @@ export function ContactSection() {
 
           {/* Right: Social links */}
           <motion.div
-            initial={{ opacity: 0, x: 20 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
             className="flex flex-col gap-4"
@@ -96,7 +96,7 @@ export function ContactSection() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: i * 0.08 }}
-                  whileHover={{ x: 5 }}
+                  whileHover={{ scale: 1.01 }}
                   className="group flex items-center gap-4 p-5 bg-surface-card border border-c-subtle rounded-2xl hover:border-c-strong transition-all duration-200"
                 >
                   <div
