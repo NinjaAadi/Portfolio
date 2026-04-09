@@ -8,6 +8,7 @@ export interface SkillCategory {
   id: string;
   category: string;
   color: string;
+  barGradient: string;
   glowColor: string;
   icon: string;
   skills: Skill[];
@@ -18,6 +19,7 @@ export const skillCategories: SkillCategory[] = [
     id: "languages",
     category: "Languages",
     color: "from-violet-500 to-purple-600",
+    barGradient: "linear-gradient(to right, #8b5cf6, #9333ea)",
     glowColor: "rgba(139,92,246,0.4)",
     icon: "Code2",
     skills: [
@@ -31,6 +33,7 @@ export const skillCategories: SkillCategory[] = [
     id: "frameworks",
     category: "Frameworks",
     color: "from-emerald-500 to-green-600",
+    barGradient: "linear-gradient(to right, #10b981, #16a34a)",
     glowColor: "rgba(16,185,129,0.4)",
     icon: "Server",
     skills: [
@@ -44,6 +47,7 @@ export const skillCategories: SkillCategory[] = [
     id: "distributed",
     category: "Distributed Systems",
     color: "from-cyan-500 to-blue-600",
+    barGradient: "linear-gradient(to right, #06b6d4, #2563eb)",
     glowColor: "rgba(6,182,212,0.4)",
     icon: "Network",
     skills: [
@@ -58,6 +62,7 @@ export const skillCategories: SkillCategory[] = [
     id: "databases",
     category: "Databases",
     color: "from-orange-500 to-red-600",
+    barGradient: "linear-gradient(to right, #f97316, #dc2626)",
     glowColor: "rgba(249,115,22,0.4)",
     icon: "Database",
     skills: [
@@ -71,6 +76,7 @@ export const skillCategories: SkillCategory[] = [
     id: "cloud",
     category: "Cloud & DevOps",
     color: "from-yellow-500 to-amber-600",
+    barGradient: "linear-gradient(to right, #eab308, #d97706)",
     glowColor: "rgba(234,179,8,0.4)",
     icon: "Cloud",
     skills: [
@@ -85,6 +91,7 @@ export const skillCategories: SkillCategory[] = [
     id: "ai",
     category: "AI / ML",
     color: "from-pink-500 to-rose-600",
+    barGradient: "linear-gradient(to right, #ec4899, #e11d48)",
     glowColor: "rgba(236,72,153,0.4)",
     icon: "Brain",
     skills: [

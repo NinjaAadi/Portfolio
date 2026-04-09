@@ -25,7 +25,7 @@ export function ContactSection() {
           description="Open to interesting conversations about distributed systems, AI, or great engineering challenges"
         />
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Left: Message card */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
