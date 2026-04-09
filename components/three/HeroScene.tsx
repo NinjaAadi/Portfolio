@@ -1,10 +1,41 @@
 "use client";
 
-import { useRef, useMemo, Suspense } from "react";
+import { useRef, useMemo, Suspense, Component, ReactNode } from "react";
 import { Canvas, useFrame, useThree } from "@react-three/fiber";
 import { Float, Stars, MeshDistortMaterial } from "@react-three/drei";
 import * as THREE from "three";
 import { useMousePosition } from "@/hooks/useMousePosition";
+
+/* ── WebGL availability check ───────────────────────────────────── */
+function isWebGLAvailable(): boolean {
+  try {
+    const canvas = document.createElement("canvas");
+    return !!(
+      window.WebGLRenderingContext &&
+      (canvas.getContext("webgl") || canvas.getContext("experimental-webgl"))
+    );
+  } catch {
+    return false;
+  }
+}
+
+/* ── Error boundary for Canvas crashes ──────────────────────────── */
+class CanvasErrorBoundary extends Component<
+  { children: ReactNode; fallback?: ReactNode },
+  { hasError: boolean }
+> {
+  constructor(props: { children: ReactNode; fallback?: ReactNode }) {
+    super(props);
+    this.state = { hasError: false };
+  }
+  static getDerivedStateFromError() {
+    return { hasError: true };
+  }
+  render() {
+    if (this.state.hasError) return this.props.fallback ?? null;
+    return this.props.children;
+  }
+}
 
 /* ── Dense particle field ───────────────────────────────────────── */
 function ParticleField() {
@@ -334,17 +365,28 @@ function SceneContent() {
 
 /* ── Export ──────────────────────────────────────────────────────── */
 export function HeroScene({ className }: { className?: string }) {
+  if (typeof window !== "undefined" && !isWebGLAvailable()) {
+    return null;
+  }
+
   return (
     <div className={className}>
-      <Canvas
-        camera={{ position: [0, 0, 8.5], fov: 50 }}
-        gl={{ antialias: true, alpha: true, powerPreference: "high-performance" }}
-        dpr={[1, 1.5]}
-      >
-        <Suspense fallback={null}>
-          <SceneContent />
-        </Suspense>
-      </Canvas>
+      <CanvasErrorBoundary>
+        <Canvas
+          camera={{ position: [0, 0, 8.5], fov: 50 }}
+          gl={{ antialias: true, alpha: true, powerPreference: "high-performance" }}
+          dpr={[1, 1.5]}
+          onCreated={({ gl }) => {
+            gl.domElement.addEventListener("webglcontextlost", (e) => {
+              e.preventDefault();
+            });
+          }}
+        >
+          <Suspense fallback={null}>
+            <SceneContent />
+          </Suspense>
+        </Canvas>
+      </CanvasErrorBoundary>
     </div>
   );
 }
